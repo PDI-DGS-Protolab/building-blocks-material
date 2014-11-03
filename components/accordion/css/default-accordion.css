@@ -1,0 +1,73 @@
+.panel-group .panel {
+    list-style: none;
+    min-height: 2.5em;
+}
+
+.panel-group {
+    margin: 0;
+    padding: 0;
+}
+
+.panel-group .panel-heading {
+    border-bottom: 1px solid #CFD6DB;
+    cursor: pointer;
+    height: 2.5em;
+    line-height: 2.5em;
+    overflow: hidden;
+    width: 100%;
+}
+
+.panel-group .panel-heading h4 {
+    margin: 0;
+}
+
+.panel-group .panel-heading .panel-title {
+    color: #485862;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.panel-group .panel-heading .panel-title .text-muted {
+    color: #CFCECE;
+}
+
+.panel-group .panel-heading {
+    background-color: #F2F6F8;
+}
+
+.panel-group .panel-heading.open {
+    background-color: #D7E9F5;
+}
+
+.panel-group .panel-heading .panel-title .heading-icon {
+    background-image: url('../img/accordion-right-arr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 1em;
+    margin: 0 0.5em 0 1em;
+    padding: 0;
+    vertical-align: middle;
+    width: 0.75em;
+}
+
+.panel-group .panel-heading.open .panel-title .heading-text .heading-icon {
+    background-image: url('../img/accordion-bottom-arr.png');
+}
+
+.panel-group .panel-collapse {
+    transition: all .3s ease-in-out 0s;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    background: #FFFFFF;
+    height: auto;
+    overflow: hidden;
+    text-transform: none;
+    font-weight: normal;
+    width: 100%;
+}
