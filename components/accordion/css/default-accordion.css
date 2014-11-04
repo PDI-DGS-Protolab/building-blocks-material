@@ -55,7 +55,7 @@
     width: 0.75em;
 }
 
-.panel-group .panel-heading.open .panel-title .heading-text .heading-icon {
+.panel-group .panel-heading.open .panel-title .heading-icon {
     background-image: url('../img/accordion-bottom-arr.png');
 }
 
