@@ -1,0 +1,127 @@
+.button-container-small {
+    background-color: rgba(72, 72, 72, 0.0);
+    border-radius: 3px;
+    clear: both;
+    float: left;
+    padding: 13px 0 13px 0;
+    position: relative;
+    font-size: 0.7em;
+    height: 27px;
+    width: 93px;
+}
+
+.button-container-medium {
+    background-color: rgba(72, 72, 72, 0.0);
+    border-radius: 3px;
+    clear: both;
+    float: left;
+    padding: 13px 0 13px 0;
+    position: relative;
+    font-size: 0.875em;
+    height: 36px;
+    width: 185px;
+}
+
+.button-container-large {
+    background-color: rgba(72, 72, 72, 0.0);
+    border-radius: 3px;
+    clear: both;
+    float: left;
+    padding: 13px 0 13px 0;
+    position: relative;
+    font-size: 1em;
+    height: 45px;
+    width: 300px;
+}
+
+.button {
+    background-color: white;
+    border: #999999 1px solid;
+    border-radius: 3px;
+    height: 36px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.button:hover:enabled {
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: hand;
+}
+
+.size-button {
+    outline: none;
+}
+.button.small {
+    font-size: 0.7em;
+    height: 27px;
+    width: 93px;
+}
+
+.button.medium {
+    font-size: 0.875em;
+    height: 36px;
+    width: 185px;
+}
+
+.button.large {
+    font-size: 1em;
+    height: 45px;
+    width: 300px;
+}
+
+.icon-paper {
+    width: 18px;
+    height: 21px;
+    background-image: url('../img/paper.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.icon-copy {
+    width: 14px;
+    height: 18px;
+    background-image: url('../img/copy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.icon-order {
+    width: 15px;
+    height: 16px;
+    background-image: url('../img/order.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.icon-left {
+    width: 19px;
+    height: 16px;
+    background-image: url('../img/left.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.icon-right {
+    width: 19px;
+    height: 16px;
+    background-image: url('../img/right.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    display: inline-block;
+}
