@@ -1,0 +1,144 @@
+.input-container-large, .input-container-medium, .input-container-small, .input-container {
+    clear: both;
+    font-family: "Arial", sans-serif;
+    width: 219px;
+}
+
+.input, .special-input-btt {
+    border: #999999 1px solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 14px;
+    height: 22px;
+    padding: 0 5px 0 5px;
+    width: 100%;
+}
+
+.input:focus, .input.ng-valid, .input.ng-invalid.ng-dirty, .special-input-btt:focus {
+    border-width: 2px;
+    padding: 0 4px 0 4px;
+}
+
+.input-container-large .message-container, .input-container-medium .message-container, .input-container-small .message-container, .input-container .message-container {
+    min-height: 30px;
+}
+
+.input-container-large p, .input-container-medium p, .input-container-small p, .input-container p {
+    background-color: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+    font-size: 11px;
+    height: 19px;
+    line-height: 19px;
+    margin: 3.75px 0 0 0;
+    overflow: hidden;
+    text-indent: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.input-container-large .message-container .input-hint,
+.input-container-medium .message-container .input-hint,
+.input-container-small .message-container .input-hint,
+.input-container .message-container .input-hint{
+    margin: 0 0 3.75px 0;
+    display: none;
+}
+
+.message-container .error-message {
+    color: #FFFFFF;
+    display: none;
+}
+
+.input.ng-invalid.ng-dirty+.message-container .error-message.negative {
+    display: block;
+}
+
+.input.ng-invalid-required.ng-dirty+.message-container .error-message.negative-required {
+    display: block;
+}
+
+.input.ng-invalid.ng-dirty:not(.ng-invalid-required)+.message-container .error-message.negative-info {
+    display: block;
+}
+
+.input.ng-valid+.message-container .error-message.positive {
+    display: block;
+}
+
+.input:focus+.message-container .error-message {
+    display: none !important;
+}
+
+.input:focus+.message-container .input-hint {
+    display: block;
+}
+
+.message-container .error-message, .message-container .input-hint {
+    font-weight: normal;
+}
+
+.special-input-btt:disabled {
+    background-color: #EAEAEA;
+}
+
+.input-container-large .btt-input, .input-container-medium .btt-input, .input-container .btt-input {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    height: 22px;
+    padding: 0;
+    width: 22px;
+}
+
+.input-container-large .btt-refresh, .input-container-medium .btt-refresh, .input-container .btt-refresh {
+    background: url('icon-refresh.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+
+.input-container-large .btt-plus, .input-container-medium .btt-plus, .input-container .btt-plus {
+    background: url('icon-plus.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+
+.input-container-large .btt-less, .input-container-medium .btt-less, .input-container .btt-less {
+    background: url('icon-less.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+
+.input-container-large  { width: 329px;}
+.input-container-medium { width: 219px;}
+.input-container-small  { width: 219px;}
+
+.input-container-large  .input, .input-container-large  .special-input-btt  { height: 36px; font-size: 18px;}
+.input-container-medium .input, .input-container-medium  .special-input-btt { height: 22px; font-size: 14px;}
+.input-container-small  .input                                 { width: 97px; height: 22px; font-size: 12px;}
+
+.input-container-large  .special-input-btt { width: 285px;}
+.input-container-medium .special-input-btt { width: 189px;}
+
+.input-container-large  .btt-input { height: 36px; width: 36px;}
+.input-container-medium .btt-input { height: 22px; width: 22px;}
+
+.input-container-large  .message-container { min-height: 30px;}
+.input-container-medium .message-container { min-height: 30px;}
+.input-container-small  .message-container { min-height: 30px;}
+.input-container        .message-container { min-height: 30px;}
+
+.input-container-large  p { font-size: 14px; height: 22.5px; line-height: 22.5px;}
+.input-container-medium p { font-size: 11px; height: 19px;   line-height: 19px;}
+.input-container-small  p { font-size: 11px; height: 19px;   line-height: 19px;}
+.input-container        p { font-size: 11px; height: 19px;   line-height: 19px;}

@@ -1,0 +1,36 @@
+/** VIVO STYLE **/
+
+.vivo.message-container .input-hint {
+    color: #999999;
+}
+
+.vivo.input.ng-invalid.ng-dirty {
+    border-color: #B00000;
+}
+
+.vivo.input.ng-valid {
+    border-color: #99CC33;
+}
+
+.vivo.input:focus, .vivo.special-input-btt:focus {
+    border-color: #FF9900 !important;
+    outline: none !important;
+}
+
+.vivo.message-container .error-message.negative,
+.vivo.message-container .error-message.negative-required,
+.vivo.message-container .error-message.negative-info {
+    background-color: #B00000;
+}
+
+.vivo.message-container .error-message.positive {
+    background-color: #99CC33;
+}
+
+.vivo.btt-plus, .vivo.btt-refresh {
+    background-color: #0066CC;
+}
+
+.vivo.btt-less {
+    background-color: #999999;
+}

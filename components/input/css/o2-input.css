@@ -1,0 +1,36 @@
+/** O2 STYLE **/
+
+.o2.message-container .input-hint {
+    color: #8C9299;
+}
+
+.o2.input.ng-invalid.ng-dirty {
+    border-color: #990000;
+}
+
+.o2.input.ng-valid {
+    border-color: #01B7B4;
+}
+
+.o2.input:focus, .o2.special-input-btt:focus  {
+    border-color: #01B7B4 !important;
+    outline: none !important;
+}
+
+.o2.message-container .error-message.negative,
+.o2.message-container .error-message.negative-required,
+.o2.message-container .error-message.negative-info {
+    background-color: #990000;
+}
+
+.o2.message-container .error-message.positive {
+    background-color: #01B7B4;
+}
+
+.o2.btt-plus, .o2.btt-refresh {
+    background-color: #2280A6;
+}
+
+.o2.btt-less {
+    background-color: #8C9299;
+}

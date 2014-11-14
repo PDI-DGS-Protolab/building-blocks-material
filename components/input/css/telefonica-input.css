@@ -1,0 +1,36 @@
+/** TELEFONICA STYLE **/
+
+.telefonica.message-container .input-hint {
+    color: #00C6D7;
+}
+
+.telefonica.input.ng-invalid.ng-dirty {
+    border-color: #CA3430;
+}
+
+.telefonica.input.ng-valid {
+    border-color: #00C607;
+}
+
+.telefonica.input:focus, .telefonica.special-input-btt:focus {
+    border-color: #00C6D7 !important;
+    outline: none !important;
+}
+
+.telefonica.message-container .error-message.negative,
+.telefonica.message-container .error-message.negative-required,
+.telefonica.message-container .error-message.negative-info {
+    background-color: #CA3430;
+}
+
+.telefonica.message-container .error-message.positive {
+    background-color: #00C607;
+}
+
+.telefonica.btt-plus, .telefonica.btt-refresh {
+    background-color: #007486;
+}
+
+.telefonica.btt-less {
+    background-color: #AEADAD;
+}

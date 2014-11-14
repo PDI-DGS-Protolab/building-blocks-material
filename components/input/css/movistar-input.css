@@ -1,0 +1,36 @@
+/** MOVISTAR STYLE **/
+
+.movistar.message-container .input-hint {
+    color: #00C6D6;
+}
+
+.movistar.input.ng-invalid.ng-dirty {
+    border-color: #C60606;
+}
+
+.movistar.input.ng-valid {
+    border-color: #8CC238;
+}
+
+.movistar.input:focus, .movistar.special-input-btt:focus  {
+    border-color: #00C6D6 !important;
+    outline: none !important;
+}
+
+.movistar.message-container .error-message.negative,
+.movistar.message-container .error-message.negative-required,
+.movistar.message-container .error-message.negative-info {
+    background-color: #C60606;
+}
+
+.movistar.message-container .error-message.positive {
+    background-color: #8CC238;
+}
+
+.movistar.btt-plus, .movistar.btt-refresh {
+    background-color: #2280A6;
+}
+
+.movistar.btt-less {
+    background-color: #75777B;
+}
