@@ -6,7 +6,6 @@
     color: white;
     cursor: pointer;
     background: #336f87;
-    border: none;
 }
 
 .o2.btt-neutral.active {
@@ -14,7 +13,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .o2.btt-neutral[disabled=disabled] {
@@ -31,7 +29,6 @@
     color: white;
     cursor: pointer;
     background: #01c9c4;
-    border: none;
 }
 
 .o2.btt-positive.active {
@@ -39,7 +36,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .o2.btt-positive[disabled=disabled] {
@@ -56,7 +52,6 @@
     color: white;
     cursor: pointer;
     background: #c90103;
-    border: none;
 }
 
 .o2.btt-negative.active {
@@ -64,7 +59,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .o2.btt-negative[disabled=disabled] {
@@ -81,7 +75,6 @@
     color: white;
     cursor: pointer;
     background: #a3a2a2;
-    border: none;
 }
 
 .o2.btt-subdued:active:enabled {
@@ -89,7 +82,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .o2.btt-subdued[disabled=disabled] {

@@ -6,7 +6,6 @@
     color: white;
     cursor: pointer;
     background: #1b5b9e;
-    border: none;
 }
 
 .vivo.btt-neutral.active {
@@ -14,7 +13,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .vivo.btt-neutral[disabled=disabled] {
@@ -31,7 +29,6 @@
     color: white;
     cursor: pointer;
     background: #8ab236;
-    border: none;
 }
 
 .vivo.btt-positive.active {
@@ -39,7 +36,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .vivo.btt-positive[disabled=disabled] {
@@ -56,12 +52,10 @@
     color: white;
     cursor: pointer;
     background: #d60101;
-    border: none;
 }
 
 .vivo.btt-negative.active {
     background: #d3302f;
-    border: none;
     outline: none !important;
     color: white;
     cursor: pointer;
@@ -81,12 +75,10 @@
     color: white;
     cursor: pointer;
     background: #a1a0a0;
-    border: none;
 }
 
 .vivo.btt-subdued.active {
     background: #a8a8a8;
-    border: none;
     color: white;
     cursor: pointer;
     outline: none !important;

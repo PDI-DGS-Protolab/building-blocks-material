@@ -6,7 +6,6 @@
     color: white;
     cursor: pointer;
     background: #326f88;
-    border: none;
 }
 
 .movistar.btt-neutral.active {
@@ -14,7 +13,6 @@
     cursor: pointer;
     background: #3c7e93;
     outline: none !important;
-    border: none;
 }
 
 .movistar.btt-neutral[disabled=disabled] {
@@ -31,7 +29,6 @@
     color: white;
     cursor: pointer;
     background: #83ad3e;
-    border: none;
 }
 
 .movistar.btt-positive.active {
@@ -39,7 +36,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .movistar.btt-positive[disabled=disabled] {
@@ -56,14 +52,12 @@
     color: white;
     cursor: pointer;
     background: #da0b0c;
-    border: none;
 }
 .movistar.btt-negative.active {
     background: #d53533;
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .movistar.btt-negative[disabled=disabled] {
@@ -80,7 +74,6 @@
     color: white;
     cursor: pointer;
     background: #89898a;
-    border: none;
 }
 
 .movistar.btt-subdued.active {
@@ -88,7 +81,6 @@
     outline: none !important;
     color: white;
     cursor: pointer;
-    border: none;
 }
 
 .movistar.btt-subdued[ disabled=disabled ] {
