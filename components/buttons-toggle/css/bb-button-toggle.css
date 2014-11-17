@@ -1,3 +1,7 @@
+.button {
+    font-family: "Arial", sans-serif;
+}
+
 .btn-group {
     position: relative;
     display: inline-block;
