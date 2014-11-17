@@ -48,12 +48,11 @@
     cursor: pointer;
     background-image: none;
     border: 1px solid #cfcece;
-    padding: 6px 12px;
-    line-height: 1.42857em;
+    padding: 4px 12px;
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
-    font-size: 16px;
+    font-size: 24px;
     height: 36px;
     width: 329px;
     font-family: Arial;
@@ -71,7 +70,7 @@
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
-    font-size: 11px;
+    font-size: 14px;
     height: 22px;
     width: 219px;
     font-family: Arial;
@@ -140,7 +139,7 @@
     width: auto;
     padding: 3px 0 0 0;
     margin: 1px 0 0 0;
-    font-size: 14px;
+    font-size: 24px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -186,7 +185,7 @@
     width: auto;
     padding: 3px 0 0 0;
     margin: 1px 0 0 0;
-    font-size: 14px;
+    font-size: 11px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -261,8 +260,8 @@
     min-width: 127px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
-    font-size: 14px;
+    margin: -37px 0 0 0;
+    font-size: 24px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -283,7 +282,7 @@
     min-width: 127px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
+    margin: -23px 0 0 0;
     font-size: 14px;
     z-index: 1;
     text-align: left;
@@ -305,8 +304,8 @@
     min-width: 90px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
-    font-size: 14px;
+    margin: -18px 0 0 0;
+    font-size: 11px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -329,8 +328,8 @@
     min-width: 127px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
-    font-size: 14px;
+    margin: -37px 0 0 0;
+    font-size: 24px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -351,7 +350,7 @@
     min-width: 127px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
+    margin: -23px 0 0 0;
     font-size: 14px;
     z-index: 1;
     text-align: left;
@@ -373,8 +372,8 @@
     min-width: 90px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
-    font-size: 14px;
+    margin: -18px 0 0 0;
+    font-size: 11px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -393,11 +392,11 @@
     right: 100%;
     display: none;
     float: left;
-    min-width: 127px;
+    min-width: 167px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
-    font-size: 14px;
+    margin: -37px 0 0 0;
+    font-size: 24px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -408,6 +407,7 @@
     -moz-box-shadow:    0px 0px 8px 0px rgba(6, 6, 6, 0.83);
     box-shadow:         0px 0px 8px 0px rgba(6, 6, 6, 0.83);
     border-radius: 0px 0px 4px 4px;
+
 }
 
 .dropdown-menu-inside.medium.left {
@@ -418,7 +418,7 @@
     min-width: 127px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
+    margin: -23px 0 0 0;
     font-size: 14px;
     z-index: 1;
     text-align: left;
@@ -440,8 +440,8 @@
     min-width: 90px;
     width: auto;
     padding: 3px 0 0 0;
-    margin: -30px 0 0 0;
-    font-size: 14px;
+    margin: -18px 0 0 0;
+    font-size: 11px;
     z-index: 1;
     text-align: left;
     list-style: none;
@@ -475,7 +475,22 @@
     background-color: #f5f5f5;
 }
 
-.caret-right {
+.caret-right-small {
+    border-left: 6px solid;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    vertical-align: middle;
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.caret-right-medium {
     border-left: 6px solid;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
@@ -489,6 +504,23 @@
     margin-right: 10px;
     margin-left: 5px;
 }
+
+
+.caret-right-large {
+    border-left: 6px solid;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    vertical-align: middle;
+    float: right;
+    margin-top: 14px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
 
 .caret-left {
     border-right: 6px solid;
