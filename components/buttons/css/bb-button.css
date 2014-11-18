@@ -5,9 +5,6 @@
     float: left;
     padding: 13px 0 13px 0;
     position: relative;
-    font-size: 0.7em;
-    height: 27px;
-    width: 93px;
 }
 
 .button-container-medium {
@@ -17,9 +14,6 @@
     float: left;
     padding: 13px 0 13px 0;
     position: relative;
-    font-size: 0.875em;
-    height: 36px;
-    width: 185px;
 }
 
 .button-container-large {
@@ -29,9 +23,6 @@
     float: left;
     padding: 13px 0 13px 0;
     position: relative;
-    font-size: 1em;
-    height: 45px;
-    width: 300px;
 }
 
 .button {
@@ -68,7 +59,7 @@
 .button.large {
     font-size: 24px;
     height: 45px;
-    width: 300px;
+    width: 219px;
 }
 
 .icon-paper {
