@@ -99,21 +99,21 @@
 }
 
 .input-container-large .btt-refresh, .input-container-medium .btt-refresh, .input-container .btt-refresh {
-    background: url('icon-refresh.png');
+    background: url('../img/icon-refresh.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 85%;
 }
 
 .input-container-large .btt-plus, .input-container-medium .btt-plus, .input-container .btt-plus {
-    background: url('icon-plus.png');
+    background: url('../img/icon-plus.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 75%;
 }
 
 .input-container-large .btt-less, .input-container-medium .btt-less, .input-container .btt-less {
-    background: url('icon-less.png');
+    background: url('../img/icon-less.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 75%;
