@@ -30,7 +30,7 @@
     width: 100%;
 }
 
-.panel-group .panel-heading .panel-title .text-muted {
+.panel-group .panel-heading.disabled .panel-title {
     color: #CFCECE;
 }
 
