@@ -18,6 +18,13 @@
     width: 100%;
 }
 
+.panel-group .panel-heading .accordion-toggle, .panel-group .panel-heading .heading-icon {
+    display: inline-block;
+    min-height: 1em;
+    padding: 0;
+    vertical-align: middle;
+}
+
 .panel-group .panel-heading h4 {
     margin: 0;
 }
@@ -48,11 +55,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    display: inline-block;
-    height: 1em;
-    margin: 0 0.5em 0 1em;
-    padding: 0;
-    vertical-align: middle;
+    margin: 0 7px 0 20px;
     width: 0.75em;
 }
 
