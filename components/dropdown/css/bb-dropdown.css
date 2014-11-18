@@ -56,6 +56,7 @@
     height: 36px;
     width: 329px;
     font-family: Arial;
+    padding-left: 20px;
 }
 
 .dropdown-medium {
@@ -74,6 +75,7 @@
     height: 22px;
     width: 219px;
     font-family: Arial;
+    padding-left: 18px;
 }
 
 .dropdown-small {
@@ -95,6 +97,7 @@
     overflow: hidden;
     white-space: nowrap; /* Don't forget this one */
     text-overflow: ellipsis;
+    padding-left: 10px;
 }
 
 .caret.large {
@@ -107,10 +110,11 @@
     width: 0;
     vertical-align: middle;
     float: right;
-    margin-top: 7px;
+    margin-top: 10px;
+    margin-bottom: 14px;
 }
 
-.caret.small, .caret.medium {
+.caret.medium {
     border-top: 6px solid;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
@@ -120,7 +124,22 @@
     width: 0;
     vertical-align: middle;
     float: right;
-    margin-top: 4px;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+.caret.small {
+    border-top: 6px solid;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    vertical-align: middle;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .dropdown {
@@ -203,15 +222,33 @@
     left: auto;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu.large > li > a {
     padding: 4px 20px;
     clear: both;
     font-weight: normal;
     line-height: 1.42857143;
     color: #333;
     text-decoration: none;
-    margin-right: 20px;
 }
+
+.dropdown-menu.medium > li > a {
+    padding: 4px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu.small > li > a {
+    padding: 4px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    text-decoration: none;
+}
+
 .dropdown-menu > li:hover,
 .dropdown-menu > li:focus {
     color: #262626;
