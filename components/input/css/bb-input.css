@@ -10,7 +10,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-size: 14px;
+    font-size: 12px;
     height: 22px;
     padding: 0 5px 0 5px;
     width: 100%;
@@ -32,7 +32,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     float: left;
-    font-size: 11px;
+    font-size: 9px;
     height: 19px;
     line-height: 19px;
     margin: 3.75px 0 0 0;
@@ -84,7 +84,7 @@
 }
 
 .special-input-btt:disabled {
-    background-color: #EAEAEA;
+    background-color: #F3F3F3;
 }
 
 .input-container-large .btt-input, .input-container-medium .btt-input, .input-container .btt-input {
@@ -123,12 +123,12 @@
 .input-container-medium { width: 219px;}
 .input-container-small  { width: 219px;}
 
-.input-container-large  .input, .input-container-large  .special-input-btt  { height: 36px; font-size: 18px;}
-.input-container-medium .input, .input-container-medium  .special-input-btt { height: 22px; font-size: 14px;}
+.input-container-large  .input, .input-container-large  .special-input-btt  { height: 36px; font-size: 16px;}
+.input-container-medium .input, .input-container-medium  .special-input-btt { height: 22px; font-size: 12px;}
 .input-container-small  .input                                 { width: 97px; height: 22px; font-size: 12px;}
 
-.input-container-large  .special-input-btt { width: 285px;}
-.input-container-medium .special-input-btt { width: 189px;}
+.input-container-large  .special-input-btt { width: 283px;}
+.input-container-medium .special-input-btt { width: 192px;}
 
 .input-container-large  .btt-input { height: 36px; width: 36px;}
 .input-container-medium .btt-input { height: 22px; width: 22px;}
@@ -138,7 +138,7 @@
 .input-container-small  .message-container { min-height: 30px;}
 .input-container        .message-container { min-height: 30px;}
 
-.input-container-large  p { font-size: 14px; height: 22.5px; line-height: 22.5px;}
-.input-container-medium p { font-size: 11px; height: 19px;   line-height: 19px;}
-.input-container-small  p { font-size: 11px; height: 19px;   line-height: 19px;}
-.input-container        p { font-size: 11px; height: 19px;   line-height: 19px;}
+.input-container-large  p { font-size: 13px; height: 22.5px; line-height: 22.5px;}
+.input-container-medium p { font-size:  9px; height: 19px;   line-height: 19px;}
+.input-container-small  p { font-size:  9px; height: 19px;   line-height: 19px;}
+.input-container        p { font-size:  9px; height: 19px;   line-height: 19px;}
