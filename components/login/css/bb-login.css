@@ -1,0 +1,17 @@
+.form .keep, .form .forgot {
+    margin-bottom: 0px !important;
+    height: auto !important;
+    min-height: 10px !important;
+}
+
+.form .field-right.submit {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    padding-left: 33px;
+    box-sizing: border-box;
+}
+
+.form .field-right.forgot {
+    padding-left: 33px;
+    box-sizing: border-box;
+}
