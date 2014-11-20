@@ -1,0 +1,109 @@
+.search-large, .search-medium, .search-error-text-large, .search-error-text-medium, .search-large+ul, .search-medium+ul {
+    font-family: "Arial",sans-serif;
+}
+
+.search-large, .search-medium {
+  border:  solid 1px #B3B5B7;
+  border-radius: 3px;
+  background-repeat:no-repeat;
+  background-origin:border-box;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.search-large.rounded, .search-medium.rounded {
+    border-radius: 18px;
+}
+
+.search-large {
+  width: 329px;
+  height: 36px;
+  font-size: 16px;
+  text-indent: 8px;
+  background-size: 21px 21px;
+  background-position: 300px 7px;
+  background-image: url(lupa-g.png);
+}
+
+.search-medium {
+  width: 145px;
+  height: 22px;
+  font-size: 12px;
+  text-indent: 6px;
+  background-size: 14px 15px;
+  background-position: 125px 3px;
+  background-image: url(lupa-p.png);
+}
+
+.search-large+ul, .search-medium+ul {
+    cursor: pointer;
+    z-index: 100;
+    background-color: white;
+    color: black;
+    list-style: none;
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 5px 0px rgba(104, 104, 104, 0.55);
+}
+
+.search-large+ul {
+    margin: 0px 0px 0px 3px;
+    padding: 12px 0px 0px 5px;
+    width: 323px;
+    max-height: 267px;
+    font-size: 16px;
+}
+
+.search-medium+ul {
+    margin: 0px 0px 0px 2px;
+    padding: 5px 0px 0px 5px;
+    width: 139px;
+    max-height: 154px;
+    font-size: 12px;
+}
+
+.search-large+ul>li, .search-medium+ul>li {
+    width: 100%;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.search-error-text-large, .search-error-text-medium {
+    color: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.search-error-text-large {
+    font-size: 13px;
+    width: 329px;
+    height: 28px;
+    line-height: 28px;
+    margin-top:3px;
+    padding-left: 8px;
+}
+
+.search-error-text-medium {
+    font-size: 9px;
+    width: 205px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 2px;
+    padding-left: 6px;
+}
+
+.search-large:focus, .search-medium:focus {
+    color: black;
+    border-width: 2px;
+}
+
+.search-large.error, .search-medium.error {
+    border-width: 2px;
+}
+
+.search-error-text-large:not(.error),
+.search-error-text-medium:not(.error) {
+    display: none;
+}

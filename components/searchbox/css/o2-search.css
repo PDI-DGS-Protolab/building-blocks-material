@@ -1,0 +1,9 @@
+.search-large:focus.o2, .search-medium:focus.o2 {
+    border-color:  #01B7B4;
+}
+.search-large.error.o2, .search-medium.error.o2 {
+    border-color: #990000;
+}
+.search-error-text-large.o2, .search-error-text-medium.o2 {
+    background-color: #990000;
+}
