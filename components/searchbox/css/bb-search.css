@@ -23,7 +23,7 @@
   text-indent: 8px;
   background-size: 21px 21px;
   background-position: 300px 7px;
-  background-image: url(https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/search/img/lupa-g.png);
+  background-image: url(https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/searchbox/img/lupa-g.png);
 }
 
 .search-medium {
@@ -33,7 +33,7 @@
   text-indent: 6px;
   background-size: 14px 15px;
   background-position: 125px 3px;
-  background-image: url(https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/search/img/lupa-p.png);
+  background-image: url(https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/searchbox/img/lupa-p.png);
 }
 
 .search-large+ul, .search-medium+ul {
