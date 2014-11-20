@@ -1,0 +1,58 @@
+#recaptcha_widget .glyphicon {
+  color: #9A9A9B;
+}
+
+#recaptcha_widget .glyphicon:hover {
+  color: #CACACB;
+}
+
+#recaptcha_widget {
+  border: 1px solid #CFCECE;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  max-width: 220px;
+}
+
+#recaptcha_widget span {
+  margin-left: 7px;
+}
+
+#recaptcha_widget #recaptcha_challenge_image {
+  max-width: 220px;
+}
+
+#recaptcha_widget .captcha_options_container {
+  background: #EFF1F4;
+}
+
+#recaptcha_widget #recaptcha-input-container {
+  display: inline-block;
+  max-width: 120px;
+  margin: 7px;
+}
+
+#recaptcha_widget .captcha_options_container div {
+  display: inline-block;
+  height: 100%;
+  margin: 5px;
+}
+
+#recaptcha_widget .captcha_options_container span {
+  margin: 0;
+}
+
+#recaptcha_widget .captcha_error_container {
+    background-color: #C60606;
+    color: #FFFFFF;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    height: 15px;
+    line-height: 15px;
+    padding-left: 7px
+}
+
+#recaptcha_widget.movistar .captcha_error_container { background-color: #C60606; }
+#recaptcha_widget.telefonica .captcha_error_container { background-color: #CA3430; }
+#recaptcha_widget.vivo .captcha_error_container { background-color: #B00000; }
+#recaptcha_widget.o2 .captcha_error_container { background-color: #990000; }
