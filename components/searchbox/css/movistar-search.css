@@ -1,0 +1,9 @@
+.search-large:focus.movistar, .search-medium:focus.movistar {
+    border-color:  #00C6D6;
+}
+.search-large.error.movistar, .search-medium.error.movistar {
+    border-color: #C60606;
+}
+.search-error-text-large.movistar, .search-error-text-medium.movistar {
+    background-color: #C60606;
+}

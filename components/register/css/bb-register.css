@@ -1,0 +1,34 @@
+form.form.register {
+    margin-bottom: 0px;
+    height: auto;
+    min-height: 10px;
+    width: 440px;
+}
+
+form.form.register .field-right {
+    width: 206px;
+}
+
+form.form.register .field-left {
+    width: 160px;
+}
+
+form.form.register .terms, form.form.register .mandatory {
+    width: 100%;
+    line-height: 1em;
+    height: auto;
+}
+
+form.form.register .buttons {
+    width: 100%;
+}
+
+form.form.register .buttons .cancelButton {
+    width: 47.5%;
+    margin-right: 2%;
+}
+
+form.form.register .buttons .registerButton {
+    width: 47.5%;
+    margin-left: 2%;
+}

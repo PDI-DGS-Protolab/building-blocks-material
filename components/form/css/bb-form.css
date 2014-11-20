@@ -1,0 +1,56 @@
+.form {
+    background: #FFFFFF;
+    border-color: #D5D3D4;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px #BBB;
+    overflow: hidden;
+    padding: 37px;
+    width: 390px;
+    box-sizing: border-box;
+    font-size: 12px !important;
+    font-family: "Arial", sans-serif;
+}
+
+.form h1 {
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.form>div.field-left {
+    float: left;
+    height: 36px;
+    width: 96px;
+    vertical-align: middle;
+    line-height: 36px;
+    margin-bottom: 26px;
+}
+
+.form>div.field-clear {
+    clear: both;
+}
+
+.form>div.field-right {
+    float: left;
+    height: 36px;
+    width: 220px;
+    margin-bottom: 26px;
+}
+
+.form .input-container {
+    height: 36px;
+}
+
+.form .input-container input.input {
+    font-size: 12px;
+    height: 100%;
+}
+
+.form button.checkbox {
+    float: left;
+}
+
+.form .checkbox-label {
+    float: left;
+    margin-left: 5px;
+    line-height: 23px;
+}
