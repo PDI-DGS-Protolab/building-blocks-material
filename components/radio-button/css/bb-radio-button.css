@@ -8,9 +8,9 @@ input[type=radio] + label {
 }
 
 input[type=radio] + label::before {
-    background-size: contain;
+    background-size: 13px;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: center;
     content: "";
     display: inline-block;
     position: absolute;
