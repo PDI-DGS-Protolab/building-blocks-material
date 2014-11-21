@@ -1,34 +1,22 @@
-form.form.register {
-    margin-bottom: 0px;
-    height: auto;
-    min-height: 10px;
-    width: 440px;
+form.bb-form.bb-register {
+  width: 320px;
 }
 
-form.form.register .field-right {
-    width: 206px;
+form.bb-form.bb-register button.checkbox {
+  margin-bottom: 26px;
 }
 
-form.form.register .field-left {
-    width: 160px;
+form.bb-form.bb-register button.button.submit {
+  width:47%;
+  margin-left:4%;
 }
 
-form.form.register .terms, form.form.register .mandatory {
-    width: 100%;
-    line-height: 1em;
-    height: auto;
+form.bb-form.bb-register button.button.cancel {
+  width:47%;
+  clear:both;
 }
 
-form.form.register .buttons {
-    width: 100%;
-}
-
-form.form.register .buttons .cancelButton {
-    width: 47.5%;
-    margin-right: 2%;
-}
-
-form.form.register .buttons .registerButton {
-    width: 47.5%;
-    margin-left: 2%;
+form.bb-form.bb-register div.buttons {
+  clear:both;
+  position: relative;
 }

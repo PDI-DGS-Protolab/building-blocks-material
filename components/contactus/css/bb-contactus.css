@@ -1,4 +1,8 @@
-form.form textarea.input {
+form.bb-form.bb-contactus {
+  width: 320px;
+}
+
+form.bb-form textarea.input {
     resize: none;
     height: 100%;
     padding-top: 9px;
@@ -6,21 +10,10 @@ form.form textarea.input {
     box-sizing: border-box;
 }
 
-form.form .field-right.comment {
+form.bb-form .input-container.comment {
     height: 100px;
 }
 
-form.form .field-left.mandatory {
+form.bb-form button.btt-positive {
     width: 100%;
-    margin-top:-10px;
-    margin-bottom: 15px;
-}
-
-form.form .field-right.comment .input-container {
-    height: 100px;
-}
-
-form.form .field-right button.btt-positive {
-    width: 85%;
-    float: right;
 }

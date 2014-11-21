@@ -1,17 +1,11 @@
-.form .keep, .form .forgot {
-    margin-bottom: 0px !important;
-    height: auto !important;
-    min-height: 10px !important;
+form.bb-form.bb-login {
+  width: 300px;
 }
 
-.form .field-right.submit {
-    margin-top: 20px;
-    margin-bottom: 22px;
-    padding-left: 33px;
-    box-sizing: border-box;
+form.bb-form.bb-login button.checkbox {
+  margin-bottom: 26px;
 }
 
-.form .field-right.forgot {
-    padding-left: 33px;
-    box-sizing: border-box;
+form.bb-form.bb-login button.button {
+  margin-bottom: 20px;
 }
