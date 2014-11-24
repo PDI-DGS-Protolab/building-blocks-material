@@ -78,6 +78,7 @@
     width: 0;
     float: right;
     margin-top: 8px;
+    margin-right: 10px;
 }
 
 .caret.medium {
@@ -91,6 +92,7 @@
     vertical-align: middle;
     float: right;
     margin-top: 5px;
+    margin-right: 10px;
 }
 
 .caret.small {
@@ -103,7 +105,8 @@
     width: 0;
     vertical-align: middle;
     float: right;
-    margin-top: 5px;
+    margin-top: 4px;
+    margin-right: 10px;
 }
 
 .dropdown {
@@ -115,7 +118,7 @@
 .dropdown-menu.large {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 1%;
     display: none;
     float: left;
     min-width: 323px;
@@ -137,7 +140,7 @@
 
 .dropdown-item.large {
     height:25px;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 .dropdown-item:first-child {
@@ -146,12 +149,12 @@
 
 .dropdown-item.medium {
     height:20px;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 .dropdown-item.small {
     height:20px;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 .dropdown-menu > li > a {
@@ -164,7 +167,7 @@
 .dropdown-menu.medium {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 2%;
     display: none;
     float: left;
     min-width: 210px;
@@ -502,7 +505,7 @@
     vertical-align: middle;
     float: right;
     margin-top: 4px;
-    margin-right: 10px;
+    margin-right: 16px;
     margin-left: 5px;
 }
 
@@ -518,7 +521,7 @@
     vertical-align: middle;
     float: right;
     margin-top: 7px;
-    margin-right: 10px;
+    margin-right: 18px;
     margin-left: 5px;
 }
 
