@@ -1,0 +1,20 @@
+form.bb-form.bb-modal {
+  width: 500px;
+  text-align: center;
+}
+
+form.bb-form.bb-modal p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  width: 100%;
+  text-align: justify;
+}
+
+form.bb-form.bb-modal button.button {
+  width: 120px;
+  margin: 0px;
+}
+
+form.bb-form.bb-modal button.button.btt-subdued {
+  margin-right: 10px;
+}
