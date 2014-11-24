@@ -1,0 +1,19 @@
+form.bb-form.bb-contactus {
+  width: 320px;
+}
+
+form.bb-form textarea.input {
+    resize: none;
+    height: 100%;
+    padding-top: 9px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+form.bb-form .input-container.comment {
+    height: 100px;
+}
+
+form.bb-form button.btt-positive {
+    width: 100%;
+}

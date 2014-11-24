@@ -1,0 +1,38 @@
+form.bb-form {
+    background: #FFFFFF;
+    border-color: #D5D3D4;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px #BBB;
+    overflow: hidden;
+    padding: 37px;
+    box-sizing: border-box;
+    font-size: 12px !important;
+    font-family: "Arial", sans-serif;
+}
+
+form.bb-form h1 {
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+form.bb-form .input-container {
+    height: 36px;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+form.bb-form .input-container input.input {
+    font-size: 12px;
+    height: 100%;
+}
+
+form.bb-form button.checkbox {
+    float: left;
+}
+
+form.bb-form .checkbox-label {
+    float: left;
+    margin-left: 5px;
+    line-height: 20px;
+}

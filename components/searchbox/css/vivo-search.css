@@ -1,0 +1,9 @@
+.search-large:focus.vivo, .search-medium:focus.vivo {
+    border-color:  #FF9900;
+}
+.search-large.error.vivo, .search-medium.error.vivo {
+    border-color: #B00000;
+}
+.search-error-text-large.vivo, .search-error-text-medium.vivo {
+    background-color: #B00000;
+}

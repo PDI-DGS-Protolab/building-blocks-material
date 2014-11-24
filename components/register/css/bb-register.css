@@ -1,0 +1,22 @@
+form.bb-form.bb-register {
+  width: 320px;
+}
+
+form.bb-form.bb-register button.checkbox {
+  margin-bottom: 26px;
+}
+
+form.bb-form.bb-register button.button.submit {
+  width:47%;
+  margin-left:4%;
+}
+
+form.bb-form.bb-register button.button.cancel {
+  width:47%;
+  clear:both;
+}
+
+form.bb-form.bb-register div.buttons {
+  clear:both;
+  position: relative;
+}

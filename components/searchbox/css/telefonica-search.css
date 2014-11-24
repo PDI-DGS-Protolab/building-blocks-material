@@ -1,0 +1,9 @@
+.search-large:focus.telefonica, .search-medium:focus.telefonica {
+    border-color:  #00C1D5;
+}
+.search-large.error.telefonica, .search-medium.error.telefonica {
+    border-color: #ca3430;
+}
+.search-error-text-large.telefonica, .search-error-text-medium.telefonica {
+    background-color: #ca3430;
+}

@@ -1,0 +1,11 @@
+form.bb-form.bb-login {
+  width: 300px;
+}
+
+form.bb-form.bb-login button.checkbox {
+  margin-bottom: 26px;
+}
+
+form.bb-form.bb-login button.button {
+  margin-bottom: 20px;
+}
