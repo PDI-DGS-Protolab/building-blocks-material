@@ -12,6 +12,7 @@
     -webkit-box-sizing: border-box;
     font-size: 12px;
     height: 22px;
+    outline: none;
     padding: 0 5px 0 5px;
     width: 100%;
 }

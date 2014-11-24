@@ -7,7 +7,7 @@
     font-size: 12px;
     height: 18px;
     margin: 0;
-    outline: inherit none 0;
+    outline: none;
     overflow: hidden;
     padding: 1px 3px;
     perspective-origin: 11px 11px;
