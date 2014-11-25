@@ -97,8 +97,6 @@
 	font-weight: bold;
 }
 
-
-
 #datePicker > table > thead > tr:first-child >th{
 	border:none !important;	
 }
@@ -119,14 +117,22 @@
 }
 
 .moveRight{
-	padding-right: 6.5px;
+	padding-right: 7.5px;
 	text-align: right;
 	outline: none;
 }
 .moveLeft{
-	padding-left: 6.5px;
+	padding-left: 7.5px;
 	text-align:left;
 	outline: none;
+}
+
+#datePicker > table.biggerTable .moveRight{
+	padding-right: 12.5px;
+}
+
+#datePicker > table.biggerTable .moveLeft{
+	padding-left: 12.5px;
 }
 
 td > .day{
