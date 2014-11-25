@@ -1,0 +1,244 @@
+
+.bigButton{
+	width: 92px;
+	height: 37px;
+	background: white;
+	border: 1px solid #cfcece;
+	border-radius: 3px;
+	cursor:pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.bigButton:hover{
+	background:#f2f2f2;
+}
+
+.bigButton.active{
+	border:none;
+	font-weight: bold;
+	color: white;
+}
+
+.bigButton.month.active{
+	background: #009966;
+}
+
+.bigButton.year.active{
+	background: #663366;
+
+}
+
+#datePicker > div{
+	border:none;
+	margin-bottom:0;
+	background: none;
+	text-align: center;
+	display: inline-block;
+}
+
+.datePickerContainer{
+	
+	width:301px;
+	height: 276px;
+	text-align: center;
+	margin:0;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+	padding:0px;
+}
+
+.headerColor{
+	height: 45px;
+	width: 301px;
+	z-index: -1;
+	position: absolute;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.week{
+	font-size: 10px;
+	color: #cfcece;
+	opacity: 50%;	
+}
+
+#datePicker > table{
+	border:none;
+	margin: auto;
+	width:278px;
+	height:230px;
+	border-collapse: collapse;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	outline: none;
+	table-layout: fixed;
+}
+
+#datePicker > table.biggerTable{
+	width:288px;
+}
+
+#datePicker > table > tbody{
+	padding:10px;
+}
+
+#datePicker > table > thead > tr:first-child {
+	height: 44px;
+	border:0;
+}
+
+.dayHeader {
+	border-top:1px solid #cfcece;
+	border-bottom:1px solid #cfcece;
+	color: #cfcece;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+
+#datePicker > table > thead > tr:first-child >th{
+	border:none !important;	
+}
+
+.title{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;	
+	color: white;
+	border: none;
+	outline: none;
+}
+
+.moveRight > img, .moveLeft > img{
+	height: 15px;
+	cursor: pointer;
+}
+
+.moveRight{
+	padding-right: 6.5px;
+	text-align: right;
+	outline: none;
+}
+.moveLeft{
+	padding-left: 6.5px;
+	text-align:left;
+	outline: none;
+}
+
+td > .day{
+	border:none;
+	background:none;
+	outline:none;
+	box-shadow: none;
+	padding:0px; 
+	width:70%;
+	height:100%;
+	font-size: 12px;
+}
+
+
+.day > span{
+	border-radius: 15px;
+	padding:4px;
+}
+.day> span:hover{
+	cursor:pointer;
+	background: #f2f2f2;	
+}
+
+.day.active > span{
+	background: #00c6d7;	
+	font-weight: bold;
+	color:white;
+}
+
+.text-muted {
+	color: #999;
+}
+
+.day > span {
+	border-radius: 15px;
+	padding: 4px;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+cursor: not-allowed;
+pointer-events: none;
+opacity: .65;
+filter: alpha(opacity=65);
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+.btn-default {
+color: #333;
+}
+
+.specialButton{
+	width: 58px;
+	height: 25px;
+	outline: none;
+	border:none;
+	border-radius:3px;
+	margin-left:0px;
+	margin-right: 15px;	
+	font-weight: bold;
+	color:white;
+	cursor:pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.specialButton.btn-today {
+	background: #00c6d7;
+}
+
+.specialButton.btn-month {
+	background: #009966;	
+}
+
+.specialButton.btn-year {
+	background: #663366;	
+
+}
+
+.specialButton.btn-clear {
+	background: #b1b0b0;
+}
+
+.buttonContainer {
+	margin-top: 9px;
+	margin-left:11px;
+	margin-right: 11px;
+	margin-bottom: 12px;
+}
+
+.buttonContainer table{
+	border-collapse: collapse;
+}
+
+.buttonContainer table > tbody > tr > td{
+	padding:0;
+}
+
+.movistar .headerColor{
+	background-color: #004356
+}
+
+.o2 .headerColor{
+	background-color: #000066;
+}
+
+.telefonica .headerColor{
+	background-color: #003245;
+}
+
+.vivo .headerColor{
+	background-color: #99CC33;
+}
+
+
+

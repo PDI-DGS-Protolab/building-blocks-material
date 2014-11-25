@@ -1,0 +1,17 @@
+<ul class="dropdown-menu datePickerContainer" ng-style="{display: (isOpen) ? 'block' : 'none', top: position.top+'px', left: position.left+'px'}" ng-keydown="keydown($event)">
+    <div class="headerColor"></div>
+    <datepicker id="datePicker"  min-date="minDate" datepicker-mode="mode" year-range="12" format-year-title="yy" format-day-title="MMMM d'th', yyyy"
+      rows-year-number = "3"></datepicker>
+    
+	<div class="buttonContainer">
+	<table>
+	  <tr>
+	    <td><button type="button" class="specialButton btn-today" ng-click="select('today')">Today</button></td>
+	    <td><button type="button" class="specialButton btn-month" ng-click="mode='month'">Month</button></td>
+	    <td><button type="button" class="specialButton btn-year" ng-click="mode='year'">Year</button></td>
+	    <td><button type="button" class="specialButton btn-clear" ng-click="select(null)">Clear</button></td>
+	  </tr>
+	</table>
+	</div>
+
+</ul>
