@@ -71,7 +71,7 @@ var bd =  [{"Password": "5I&c%7%bAn", "City": "Burgos", "First name": "Manuel", 
 
 var columns = [{ title: 'ID', field: 'ID', visible: true, filter: { 'ID': 'text' }, modify: true},{ title: 'First name', field: 'First name', visible: true, filter: { 'First name': 'text' }, modify: true}, 
             { title: 'Last Name', field: 'Last Name', visible: true, filter: { 'Last Name': 'text' }, modify: true}, { title: 'Job', field: 'Job', visible: true, filter: { 'Job': 'text' }, modify: true},
-            { title: 'Company', field: 'Company', visible: true, filter: { 'Company': 'text' }, modify: true}, { title: 'City', field: 'City', visible: true, filter: { 'City': 'text' }, modify: true},
+            { title: 'Company', field: 'Company', visible: false, filter: { 'Company': 'text' }, modify: true}, { title: 'City', field: 'City', visible: true, filter: { 'City': 'text' }, modify: true},
             { title: 'Password', field: 'Password', visible: true, filter: { 'Password': 'text' }, modify: true}, { title: 'Credit Card', field: 'Credit Card', visible: true, filter: { 'Credit Card': 'text' }, modify: true}]
 // var columns = [{ title: 'ID', field: 'ID', visible: true, filter: { 'ID': 'text' }, modify: true},{ title: 'First name', field: 'First name', visible: true, filter: { 'First name': 'text' }, modify: true}, 
 //             { title: 'Last Name', field: 'Last Name', visible: true, filter: { 'Last Name': 'text' }, modify: true}, { title: 'City', field: 'City', visible: true, filter: { 'City': 'text' }, modify: true}, 
