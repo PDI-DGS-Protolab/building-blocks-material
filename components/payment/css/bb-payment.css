@@ -1,0 +1,106 @@
+form.bb-form.bb-payment {
+  width: 604px;
+  overflow: visible;
+}
+
+form.bb-form.bb-payment textarea.input {
+    resize: none;
+    height: 100%;
+    padding-top: 9px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+form.bb-form.bb-payment .postal-container {
+    width: 219px;
+}
+
+form.bb-form.bb-payment .whatsthis {
+    float: left;
+    line-height: 10px;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 26px;
+}
+
+form.bb-form.bb-payment .input-container,
+form.bb-form.bb-payment div.dropdown-group.cardtype,
+form.bb-form.bb-payment .date-container {
+    width: 219px;
+    margin-bottom: 25px;
+}
+
+form.bb-form.bb-payment .left {
+    float: left;
+    clear: both;
+}
+
+form.bb-form.bb-payment .right {
+    float: right;
+    clear: none;
+}
+
+form.bb-form.bb-payment .button-container {
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+form.bb-form.bb-payment button.button {
+    width: 120px;
+}
+
+form.bb-form.bb-payment button.button.btt-positive {
+    margin-left: 10px;
+}
+
+form.bb-form.bb-payment button.button.btt-positive {
+    margin-left: 10px;
+}
+
+form.bb-form.bb-payment div.dropdown-group.cardtype>button.dropdown-large,
+form.bb-form.bb-payment div.dropdown-group.cardtype>ul.dropdown-menu.large,
+form.bb-form.bb-payment div.dropdown-group.cardtype>ul.dropdown-menu.large>li {
+    font-size: 14px;
+    width: 219px;
+    min-width: auto;
+}
+
+form.bb-form.bb-payment .input-container.cvv {
+    width: 47px;
+}
+
+form.bb-form.bb-payment .input-container.postal {
+    width: 100px;
+}
+
+form.bb-form.bb-payment div.dropdown-group.monthPicker,
+form.bb-form.bb-payment div.dropdown-group.monthPicker>button.dropdown-large,
+form.bb-form.bb-payment div.dropdown-group.monthPicker>ul.dropdown-menu.large,
+form.bb-form.bb-payment div.dropdown-group.monthPicker>ul.dropdown-menu.large>li,
+form.bb-form.bb-payment div.dropdown-group.yearPicker,
+form.bb-form.bb-payment div.dropdown-group.yearPicker>button.dropdown-large,
+form.bb-form.bb-payment div.dropdown-group.yearPicker>ul.dropdown-menu.large,
+form.bb-form.bb-payment div.dropdown-group.yearPicker>ul.dropdown-menu.large>li {
+    font-size: 14px;
+    width: 100px;
+    min-width: 0px;
+}
+
+form.bb-form.bb-payment div.dropdown-group.yearPicker>ul.dropdown-menu.large>li,
+form.bb-form.bb-payment div.dropdown-group.monthPicker>ul.dropdown-menu.large>li,
+form.bb-form.bb-payment div.dropdown-group.cardtype>ul.dropdown-menu.large>li {
+    box-sizing: border-box;
+}
+
+form.bb-form.bb-payment span.caret.large {
+    margin-right: 0px;
+}
+
+form.bb-form.bb-payment button.dropdown-large.btn-primary.dropdown-toggle {
+    padding-left: 5px;
+}
+
+.dropdown-item {
+    padding-top: 5px;
+}
