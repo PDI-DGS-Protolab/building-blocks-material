@@ -28,6 +28,7 @@ form.bb-form.bb-payment div.dropdown-group.cardtype,
 form.bb-form.bb-payment .date-container {
     width: 219px;
     margin-bottom: 25px;
+    min-width: 0px;
 }
 
 form.bb-form.bb-payment .left {
@@ -63,7 +64,7 @@ form.bb-form.bb-payment div.dropdown-group.cardtype>ul.dropdown-menu.large,
 form.bb-form.bb-payment div.dropdown-group.cardtype>ul.dropdown-menu.large>li {
     font-size: 14px;
     width: 219px;
-    min-width: auto;
+    min-width: 0px;
 }
 
 form.bb-form.bb-payment .input-container.cvv {
