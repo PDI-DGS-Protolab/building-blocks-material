@@ -30,11 +30,11 @@
 
 .datePickerContainer{
 	
-	width:301px;
-	height: 276px;
+	width:300px;
+	height: 272px;
 	text-align: center;
 	margin:0;
-	margin-bottom: 20px;
+	margin-top: 3px;
 	border-radius: 5px;
 	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 	padding:0px;
@@ -42,7 +42,7 @@
 
 .headerColor{
 	height: 45px;
-	width: 301px;
+	width: 300px;
 	z-index: -1;
 	position: absolute;
 	border-top-right-radius: 5px;
@@ -59,7 +59,7 @@
 	border:none;
 	margin: auto;
 	width:278px;
-	height:230px;
+	height:226px;
 	border-collapse: collapse;
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -68,12 +68,15 @@
 }
 
 #datePicker > table.biggerTable{
-	width:288px;
+	width:295px;
 }
 
 
-#datePicker > table > tbody{
-	padding:10px;
+#datePicker > table.biggerTable > tbody:before {
+	line-height: 8px;
+	content: "-";
+	color: white;
+	display: block;
 }
 
 #datePicker > table > thead > tr:first-child {
@@ -122,11 +125,11 @@
 }
 
 #datePicker > table.biggerTable .moveRight{
-	padding-right: 12.5px;
+	padding-right: 16.5px;
 }
 
 #datePicker > table.biggerTable .moveLeft{
-	padding-left: 12.5px;
+	padding-left: 15px;
 }
 
 td > .day{
@@ -206,90 +209,4 @@ color: #333;
 .buttonContainer table > tbody > tr > td{
 	padding:0;
 }
-
-
-.movistar .headerColor{
-	background-color: #2280a6;
-}
-
-.movistar .specialButton.btn-today, .movistar .day.active > span {
-	background: #8cc238;
-}
-
-.movistar .specialButton.btn-month, .movistar .bigButton.month.active {
-	background: #9e33b6;	
-}
-
-.movistar .specialButton.btn-year, .movistar .bigButton.year.active{
-	background: #fdb714;
-}
-
-.movistar .specialButton.btn-clear {
-	background: #75777b;
-}
-
-
-
-.o2 .headerColor{
-	background-color: #2280a6;
-}
-
-.o2 .specialButton.btn-today, .o2 .day.active > span {
-	background: #01b7b4;
-}
-
-.o2 .specialButton.btn-month, .o2 .bigButton.month.active {
-	background: #952d98;	
-}
-
-.o2 .specialButton.btn-year, .o2 .bigButton.year.active{
-	background: #ffcc00;
-}
-
-.o2 .specialButton.btn-clear {
-	background: #8c9299;
-}
-
-
-.telefonica .headerColor{
-	background-color: #004356;
-}
-
-.telefonica .specialButton.btn-today, .telefonica .day.active > span {
-	background: #00c6d7;
-}
-
-.telefonica .specialButton.btn-month, .telefonica .bigButton.month.active {
-	background: #009966;	
-}
-
-.telefonica .specialButton.btn-year, .telefonica .bigButton.year.active{
-	background: #663366;
-}
-
-.telefonica .specialButton.btn-clear {
-	background: #b1b0b0;
-}
-
-.vivo .headerColor{
-	background-color: #0066cc;
-}
-
-.vivo .specialButton.btn-today, .vivo .day.active > span {
-	background: #99cc33;
-}
-
-.vivo .specialButton.btn-month, .vivo .bigButton.month.active {
-	background: #660099;	
-}
-
-.vivo .specialButton.btn-year, .vivo .bigButton.year.active{
-	background: #ff9900;
-}
-
-.vivo .specialButton.btn-clear {
-	background: #999999;
-}
-
-
 
