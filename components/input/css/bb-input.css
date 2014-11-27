@@ -17,6 +17,10 @@
     width: 100%;
 }
 
+.input:invalid, .input:-moz-ui-invalid, .input:-moz-submit-invalid {
+  box-shadow: none;
+}
+
 .input:focus, .input.ng-valid, .input.ng-invalid.ng-dirty, .special-input-btt:focus {
     border-width: 2px;
     padding: 0 4px 0 4px;
