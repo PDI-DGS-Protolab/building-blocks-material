@@ -30,11 +30,11 @@
 
 .datePickerContainer{
 	
-	width:301px;
-	height: 276px;
+	width:300px;
+	height: 272px;
 	text-align: center;
 	margin:0;
-	margin-bottom: 20px;
+	margin-top: 3px;
 	border-radius: 5px;
 	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 	padding:0px;
@@ -42,7 +42,7 @@
 
 .headerColor{
 	height: 45px;
-	width: 301px;
+	width: 300px;
 	z-index: -1;
 	position: absolute;
 	border-top-right-radius: 5px;
@@ -59,7 +59,7 @@
 	border:none;
 	margin: auto;
 	width:278px;
-	height:230px;
+	height:226px;
 	border-collapse: collapse;
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -68,12 +68,15 @@
 }
 
 #datePicker > table.biggerTable{
-	width:288px;
+	width:295px;
 }
 
 
-#datePicker > table > tbody{
-	padding:10px;
+#datePicker > table.biggerTable > tbody:before {
+	line-height: 8px;
+	content: "-";
+	color: white;
+	display: block;
 }
 
 #datePicker > table > thead > tr:first-child {
@@ -122,11 +125,11 @@
 }
 
 #datePicker > table.biggerTable .moveRight{
-	padding-right: 12.5px;
+	padding-right: 16.5px;
 }
 
 #datePicker > table.biggerTable .moveLeft{
-	padding-left: 12.5px;
+	padding-left: 16.5px;
 }
 
 td > .day{
