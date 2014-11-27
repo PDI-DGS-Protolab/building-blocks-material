@@ -10,6 +10,7 @@
   padding: 0;
   text-align: left;
   box-sizing: border-box;
+  outline: none;
 }
 
 .search-large.rounded, .search-medium.rounded {
@@ -32,7 +33,7 @@
   font-size: 12px;
   text-indent: 6px;
   background-size: 14px 15px;
-  background-position: 125px 3px;
+  background-position: 125px 4px;
   background-image: url(https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/searchbox/img/lupa-p.png);
 }
 
@@ -87,7 +88,7 @@
 
 .search-error-text-medium {
     font-size: 9px;
-    width: 205px;
+    width: 145px;
     height: 16px;
     line-height: 16px;
     margin-top: 2px;
