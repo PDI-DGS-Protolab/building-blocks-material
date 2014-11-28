@@ -17,6 +17,10 @@
     width: 100%;
 }
 
+.input:invalid, .input:-moz-ui-invalid, .input:-moz-submit-invalid {
+  box-shadow: none;
+}
+
 .input:focus, .input.ng-valid, .input.ng-invalid.ng-dirty, .special-input-btt:focus {
     border-width: 2px;
     padding: 0 4px 0 4px;
@@ -84,11 +88,16 @@
     font-weight: normal;
 }
 
-.special-input-btt:disabled {
+.special-input-btt:disabled, .input:disabled {
+    border-color: #CFCECE;
     background-color: #F3F3F3;
+    color: #818181;
 }
 
 .input-container-large .btt-input, .input-container-medium .btt-input, .input-container .btt-input {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 65%;
     border: none;
     outline: none;
     border-radius: 3px;
@@ -99,29 +108,16 @@
     width: 22px;
 }
 
-.input-container-large .btt-refresh, .input-container-medium .btt-refresh, .input-container .btt-refresh {
-    background: url('../img/icon-refresh.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 55%;
+.btt-input.btt-refresh {
+    background-image: url('../img/icon-refresh.png');
 }
 
-.input-container-large .btt-plus, .input-container-medium .btt-plus, .input-container .btt-plus {
-    background: url('../img/icon-plus.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 55%;
+.btt-input.btt-plus {
+    background-image: url('../img/icon-plus.png');
 }
 
-.input-container-large .btt-less, .input-container-medium .btt-less, .input-container .btt-less {
-    background: url('../img/icon-less.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 55%;
-}
-
-.input-container-large .btt-refresh, .input-container-large .btt-plus, .input-container-large .btt-less {
-    background-size: 45%;
+.btt-input.btt-less {
+    background-image: url('../img/icon-less.png');
 }
 
 .input-container-large  { width: 329px;}
