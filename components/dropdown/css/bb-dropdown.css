@@ -30,7 +30,7 @@
     text-align: left;
     cursor: pointer;
     background-image: none;
-    border: 1px solid #cfcece;
+    border: 1px solid #999999;
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
@@ -44,7 +44,7 @@
     text-align: left;
     cursor: pointer;
     background-image: none;
-    border: 1px solid #cfcece;
+    border: 1px solid #999999;
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
@@ -58,7 +58,7 @@
     text-align: left;
     cursor: pointer;
     background-image: none;
-    border: 1px solid #cfcece;
+    border: 1px solid #999999;
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
@@ -66,6 +66,12 @@
     height: 22px;
     width: 97px;
     padding-left: 15px;
+}
+
+.dropdown-small:disabled,
+.dropdown-medium:disabled,
+.dropdown-large:disabled {
+    border: 1px solid #cfcece;
 }
 
 .caret.large {
