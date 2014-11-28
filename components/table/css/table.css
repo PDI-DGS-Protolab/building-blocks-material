@@ -1,5 +1,6 @@
 .input {
   font-family: arial;
+  color:#333333;
   font-size: 11px;
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -26,6 +27,7 @@
   border: 1px solid #cccccc;
   text-align: left;
   font-family: "Arial", sans-serif;
+  color:#333333;
   font-size: 11px;
 }
 
@@ -104,6 +106,7 @@ th#edit {
   width: 100%;
   font-weight:normal;
   font-family: Arial, Sans-serif;
+  color:#333333;
   height:40px;
   padding-left: 20px;
   vertical-align: middle;
