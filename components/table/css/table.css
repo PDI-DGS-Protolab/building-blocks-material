@@ -39,6 +39,8 @@
   outline:none;
   border-top: 1px solid #cccccc;
   background-color: #f6f6f6;
+  height: 18px;
+  min-width:80px;
 }
 
 .table > tbody > tr.active {
@@ -60,10 +62,6 @@
   width: 94px;
   height: 24px;
   cursor: pointer;
-}
-.table > tbody > tr {
-  height: 22px;
-  min-width:80px;
 }
 
 .table > thead > tr > th {
@@ -87,7 +85,7 @@ th#edit {
 
 .table > tbody > tr > td {  
   height: 8px;  
-  padding: 7px 9px 5px 10px;
+  padding: 5px 9px 3px 10px;
 }
 
 .ellipsis {
@@ -137,6 +135,7 @@ th#edit {
 
 .footerElement > img,  .footerElement > p{
   display:inline;
+  vertical-align: middle;
 }
 
 .footerElement > img:hover{
@@ -146,6 +145,8 @@ th#edit {
 .footerElement.right {
   float: right;
   margin-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .footerElement.right p {
@@ -177,10 +178,11 @@ th#edit {
   position: absolute;
   border-radius: 0px;
   padding: 0;
-  bottom:100%;
-  right:0%;
+  bottom:99%;
+  left:17%;
   background-color: #30303c;
   border-collapse: collapse;
+  display: table;
 }
 
 .footerBtn > ul > li{
@@ -197,11 +199,18 @@ th#edit {
 }
 
 .footerBtn > ul > li:hover {
-  background-color: #27282f;
   cursor: pointer;
 }
 
-.footerBtn ul ul li {
+.footerBtn > ul > li:active {
+  background-color: #27282f;
+}
+
+.footerBtn > ul > li.clicked {
+  background-color: #27282f;
+}
+
+.footerBtn > ul > li > ul > li {
   vertical-align: middle;
   font-size: 11px;
   width: 220px;
