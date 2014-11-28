@@ -89,7 +89,7 @@
 }
 
 .caret.medium {
-    border-top: 6px solid;
+    border-top: 5px solid;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     content: "";
@@ -104,7 +104,7 @@
 }
 
 .caret.small {
-    border-top: 6px solid;
+    border-top: 5px solid;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     content: "";
