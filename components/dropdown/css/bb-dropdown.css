@@ -26,6 +26,27 @@
     border: 2px solid #01B7B4;
 }
 
+.dropdown-group.open .dropdown-large {
+    padding-left:14px;
+}
+
+.dropdown-group.open .dropdown-medium,
+.dropdown-group.open .dropdown-small{
+    padding-left:11px;
+}
+
+
+
+.dropdown-group.open .dropdown-large .caret.large {
+    margin-right: 7px;
+}
+
+.dropdown-group.open .dropdown-medium .caret.medium,
+.dropdown-group.open .dropdown-small .caret.small {
+    margin-right: 2px;
+}
+
+
 .dropdown-large {
     text-align: left;
     cursor: pointer;
@@ -84,7 +105,7 @@
     width: 0;
     float: right;
     margin-top: 7px;
-    margin-right: 10px;
+    margin-right: 8px;
     padding-bottom: 5px;
 }
 
@@ -98,9 +119,9 @@
     width: 0;
     vertical-align: middle;
     float: right;
-    margin-top: 5px;
+    margin-top: 6px;
     margin-right: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
 }
 
 .caret.small {
