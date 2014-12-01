@@ -95,7 +95,7 @@ form.bb-form.bb-payment div.dropdown-group.cardtype>ul.dropdown-menu.large>li {
 }
 
 form.bb-form.bb-payment span.caret.large {
-    margin-right: 0px;
+    margin-right: 0px !important;
 }
 
 form.bb-form.bb-payment button.dropdown-large.btn-primary.dropdown-toggle {
