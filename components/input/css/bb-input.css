@@ -152,7 +152,7 @@
     background-size: 16px;
 }
 
-.input:required:focus {
+.input:required:focus, .input.ng-invalid.ng-dirty,  .input.ng-valid {
     background-image: url('../img/bg-required-focus.png');
 }
 

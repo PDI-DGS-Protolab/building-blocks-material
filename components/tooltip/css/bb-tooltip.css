@@ -19,6 +19,7 @@
 }
 
 .popover {
+    font-size: 12px;
     position: absolute;
     top: 0;
     left: 0;
