@@ -1,6 +1,7 @@
 .input-container-large, .input-container-medium, .input-container-small, .input-container {
     clear: both;
     font-family: "Arial", sans-serif;
+    position: relative;
     width: 219px;
 }
 
@@ -20,12 +21,16 @@
 .input:required {
     background-image: url('../img/bg-required.png');
     background-position: 100% 0%;
-    background-size: 6%;
     background-repeat: no-repeat;
+    background-size: 6%;
 }
 
 .input:required:focus {
-    /*background-image: none;*/
+    background-image: url('../img/bg-required-focus.png');
+}
+
+.input-container-small .input {
+    background-size: 16%;
 }
 
 .input:invalid, .input:-moz-ui-invalid, .input:-moz-submit-invalid {
@@ -37,7 +42,10 @@
     padding: 0 4px 0 4px;
 }
 
-.input-container-large .message-container, .input-container-medium .message-container, .input-container-small .message-container, .input-container .message-container {
+.input-container-large .message-container,
+.input-container-medium .message-container,
+.input-container-small .message-container,
+.input-container .message-container {
     min-height: 30px;
 }
 
@@ -154,3 +162,21 @@
 .input-container-medium p { font-size:  9px; height: 19px;   line-height: 19px;}
 .input-container-small  p { font-size:  9px; height: 19px;   line-height: 19px;}
 .input-container        p { font-size:  9px; height: 19px;   line-height: 19px;}
+
+.input-container-large .tooltip-required,
+.input-container-medium .tooltip-required,
+.input-container-small .tooltip-required,
+.input-container .tooltip-required {
+    height: 14px;
+    position: absolute;
+    right: 0;
+    width: 6%;
+}
+
+.input-container-large .tooltip-required {
+    height: 20px;
+}
+
+.input-container-small .tooltip-required {
+    right: 56%;
+}
