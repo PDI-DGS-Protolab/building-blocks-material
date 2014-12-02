@@ -1,5 +1,5 @@
 form.bb-form.bb-modal {
-  width: 500px;
+  width: 332px;
   text-align: center;
 }
 
@@ -7,7 +7,7 @@ form.bb-form.bb-modal p {
   margin-bottom: 30px;
   font-size: 14px;
   width: 100%;
-  text-align: justify;
+  text-align: center;
 }
 
 form.bb-form.bb-modal button.button {

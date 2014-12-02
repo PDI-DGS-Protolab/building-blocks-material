@@ -31,7 +31,7 @@
 .datePickerContainer{
 	
 	width:300px;
-	height: 271px;
+	height: 272px;
 	text-align: center;
 	margin:0;
 	margin-top: 3px;
@@ -41,7 +41,7 @@
 }
 
 .headerColor{
-	height: 44px;
+	height: 45px;
 	border:0;
 }
 
@@ -67,7 +67,7 @@
 	display: table;
 	width: 279px;
 	margin-left: 11px;
-	height: 150px;
+	height: 148px;
 	table-layout: fixed;
 }
 
