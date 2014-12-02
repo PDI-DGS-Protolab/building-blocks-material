@@ -22,15 +22,15 @@
     background-image: url('../img/bg-required.png');
     background-position: 100% 0%;
     background-repeat: no-repeat;
-    background-size: 6%;
+    background-size: 16px;
 }
 
 .input:required:focus {
     background-image: url('../img/bg-required-focus.png');
 }
 
-.input-container-small .input {
-    background-size: 16%;
+.input-container-large .input:required {
+    background-size: 20px;
 }
 
 .input:invalid, .input:-moz-ui-invalid, .input:-moz-submit-invalid {
@@ -167,14 +167,15 @@
 .input-container-medium .tooltip-required,
 .input-container-small .tooltip-required,
 .input-container .tooltip-required {
-    height: 14px;
+    height: 16px;
     position: absolute;
     right: 0;
-    width: 6%;
+    width: 16px;
 }
 
 .input-container-large .tooltip-required {
     height: 20px;
+    width: 20px;
 }
 
 .input-container-small .tooltip-required {
