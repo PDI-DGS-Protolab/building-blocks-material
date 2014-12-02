@@ -17,8 +17,19 @@
     width: 100%;
 }
 
+.input:required {
+    background-image: url('../img/bg-required.png');
+    background-position: 100% 0%;
+    background-size: 6%;
+    background-repeat: no-repeat;
+}
+
+.input:required:focus {
+    /*background-image: none;*/
+}
+
 .input:invalid, .input:-moz-ui-invalid, .input:-moz-submit-invalid {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 .input:focus, .input.ng-valid, .input.ng-invalid.ng-dirty, .special-input-btt:focus {
@@ -91,7 +102,7 @@
 .special-input-btt:disabled, .input:disabled {
     border-color: #CFCECE;
     background-color: #F3F3F3;
-    color: #818181;
+    color: #A1A1A1;
 }
 
 .input-container-large .btt-input, .input-container-medium .btt-input, .input-container .btt-input {
