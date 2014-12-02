@@ -16,11 +16,37 @@
   border: 1px solid #e5b622;
 }
 
+.arrow {
+  margin-left: 4px;
+  background-image:url('../images/movistar/arrow_table_neutral.png');
+  background-repeat:no-repeat;
+  padding: 0 0 0 0px;
+  display: inline-block;
+  height: 7px;
+  width: 9px;
+}
+
+.up_arrow {
+  background-position:0px 0px;
+}
+
+.down_arrow {
+  background-position:0px -10px;
+}
+
+.tr-normal {
+  height: 8px;  
+  padding: 5px 9px 3px 10px;
+}
+
+.tr-edit {
+  height: 8px;  
+  padding: 0px 1px 0px 1px;
+}
+
 .table {
+  -webkit-user-select: none;
   display: table;
-
-  /*table-layout: fixed;*/
-
   border-collapse: collapse;
   border-spacing: 0;
   border: 1px solid #cccccc;
@@ -39,6 +65,8 @@
   outline:none;
   border-top: 1px solid #cccccc;
   background-color: #f6f6f6;
+  height: 18px;
+  min-width:80px;
 }
 
 .table > tbody > tr.active {
@@ -61,10 +89,6 @@
   height: 24px;
   cursor: pointer;
 }
-.table > tbody > tr {
-  height: 22px;
-  min-width:80px;
-}
 
 .table > thead > tr > th {
   cursor: pointer;
@@ -85,10 +109,10 @@ th#edit {
   margin-left: 4px;
 }
 
-.table > tbody > tr > td {  
+/*.table > tbody > tr > td {  
   height: 8px;  
-  padding: 7px 9px 5px 10px;
-}
+  padding: 5px 9px 3px 10px;
+}*/
 
 .ellipsis {
   display: block;
@@ -137,6 +161,7 @@ th#edit {
 
 .footerElement > img,  .footerElement > p{
   display:inline;
+  vertical-align: middle;
 }
 
 .footerElement > img:hover{
@@ -146,6 +171,8 @@ th#edit {
 .footerElement.right {
   float: right;
   margin-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .footerElement.right p {
@@ -173,17 +200,65 @@ th#edit {
   display: table;
 }
 
-.footerBtn ul ul {
+.footer-subitem {
+  display: block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.foot-list {
+  display: table-cell;
+  vertical-align: middle;
+  color: #f6f6f6;
+  text-align: center;
+  border: 1px solid #808080;
+  margin: 0px;
+  width: 110px;
+  font-size: 11px;
+  height: 38.2px;
+  padding: 0;
+}
+
+.foot-list:hover {
+  cursor:pointer;
+}
+
+.foot-list:active {
+  background-color: #27282f;
+}
+
+.foot-list.clicked {
+  background-color: #27282f;
+}
+
+.foot-list ul {
   position: absolute;
   border-radius: 0px;
   padding: 0;
-  bottom:100%;
-  right:0%;
+  bottom:99%;
+  left:17%;
   background-color: #30303c;
   border-collapse: collapse;
+  display: table;
 }
 
-.footerBtn > ul > li{
+.foot-list ul > li {
+  vertical-align: middle;
+  font-size: 11px;
+  width: 220px;
+  height: 30px;
+  color: #888888;
+  background-color: #27282f;
+  margin-left: 0;
+}
+
+.foot-list ul li:hover {
+  color:#f6f6f6;
+}
+
+
+
+/*.footerBtn > ul > li{
   display: table-cell;
   vertical-align: middle;
   color: #f6f6f6;
@@ -197,11 +272,29 @@ th#edit {
 }
 
 .footerBtn > ul > li:hover {
-  background-color: #27282f;
   cursor: pointer;
 }
 
-.footerBtn ul ul li {
+.footerBtn > ul > li:active {
+  background-color: #27282f;
+}
+
+.footerBtn > ul > li.clicked {
+  background-color: #27282f;
+}*/
+
+/*.footerBtn ul ul {
+  position: absolute;
+  border-radius: 0px;
+  padding: 0;
+  bottom:99%;
+  left:17%;
+  background-color: #30303c;
+  border-collapse: collapse;
+  display: table;
+}
+
+.footerBtn > ul > li > ul > li {
   vertical-align: middle;
   font-size: 11px;
   width: 220px;
@@ -213,7 +306,7 @@ th#edit {
 
 .footerBtn ul ul li:hover {
   color:#f6f6f6;
-}
+}*/
 
 .loading-container {
     position: relative;
@@ -239,3 +332,4 @@ input[type="text"] {
      -webkit-box-sizing:border-box;
      -moz-box-sizing: border-box;
 }
+
