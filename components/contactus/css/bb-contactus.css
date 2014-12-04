@@ -8,6 +8,7 @@ form.bb-form textarea.input {
     padding-top: 9px;
     font-size: 12px;
     box-sizing: border-box;
+    font-family: "Arial",sans-serif;
 }
 
 form.bb-form .input-container.comment {
