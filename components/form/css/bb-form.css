@@ -36,3 +36,12 @@ form.bb-form .checkbox-label {
     margin-left: 5px;
     line-height: 20px;
 }
+
+form.bb-form a {
+    text-decoration: none;
+}
+
+form.bb-form a.telefonica {color: #00c6d7;}
+form.bb-form a.movistar {color: #8cc238;}
+form.bb-form a.vivo {color: #99cc33;}
+form.bb-form a.o2 {color: #01b7b4;}
