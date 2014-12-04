@@ -494,10 +494,9 @@
 
 .dropdown-menu-inside > li > a {
     display: block;
-    padding: 0px 12px;
     clear: both;
     font-weight: normal;
-    line-height: 25px;
+    padding: 5px 12px 5px 12px;
     color: #333;
     white-space: nowrap;
     text-decoration: none;
