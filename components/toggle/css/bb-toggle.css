@@ -1,0 +1,97 @@
+.toggle-switch {
+    border: 1px solid #CFCECE;
+    border-radius: 14px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    overflow: hidden;
+    width: 61px;
+}
+
+.toggle-switch span {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 50%;
+    white-space: nowrap;
+
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.toggle-switch > div {
+    position: relative;
+    width: 160%;
+}
+
+.toggle-switch .knob {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 25px;
+    z-index: 100;
+    -webkit-box-shadow: 0px 1px 3px 1px rgba(189,189,189,1);
+    -moz-box-shadow: 0px 1px 3px 1px rgba(189,189,189,1);
+    box-shadow: 0px 1px 3px 1px rgba(189,189,189,1);
+}
+
+.toggle-switch .switch-on {
+    left: 0;
+}
+
+.toggle-switch .switch-off {
+    left: -59%
+}
+
+.toggle-switch .switch-left, .toggle-switch .switch-right {
+    z-index: 1;
+}
+
+.toggle-switch .switch-left {
+    background-color: #00C6D7;
+    padding-right: 10px;
+}
+
+.toggle-switch .switch-right {
+    background-color: #AEADAD;
+    padding-left: 10px;
+}
+
+.toggle-switch-animate {
+    transition: left 0.5s;
+    -o-transition: left 0.5s;
+    -moz-transition: left 0.5s;
+    -webkit-transition: left 0.5s;
+}
+
+.toggle-switch.disabled > div > span.knob,
+.toggle-switch:disabled > div > span.knob {
+    background: #EEEEEE;
+}
+
+.toggle-switch.disabled span,
+.toggle-switch:disabled span {
+    cursor: default;
+}
+
+.toggle-switch.telefonica .switch-left { background-color: #00C6D7; }
+.toggle-switch.vivo       .switch-left { background-color: #99CC33; }
+.toggle-switch.o2         .switch-left { background-color: #01B7B4; }
+.toggle-switch.movistar   .switch-left { background-color: #8CC238; }
+.toggle-switch:disabled   .switch-left,
+.toggle-switch.disabled   .switch-left { background-color: #CFCECE; }
+
+.toggle-switch.telefonica .switch-right { background-color: #AEADAD; }
+.toggle-switch.vivo       .switch-right { background-color: #999999; }
+.toggle-switch.o2         .switch-right { background-color: #8C9299; }
+.toggle-switch.movistar   .switch-right { background-color: #75777B; }
+.toggle-switch:disabled   .switch-right,
+.toggle-switch.disabled   .switch-right { background-color: #CFCECE; }
