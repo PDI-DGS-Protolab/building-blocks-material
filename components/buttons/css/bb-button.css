@@ -117,9 +117,10 @@
     display: inline-block;
 }
 
+
 .icon-loading {
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
     background-image: url('../img/loader.gif');
     background-position: center;
     background-repeat: no-repeat;
