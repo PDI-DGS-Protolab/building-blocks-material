@@ -35,6 +35,8 @@ input[type=radio]:checked.movistar   + label::before { background-image: url('..
 input[type=radio]:checked.vivo       + label::before { background-image: url('../img/selected_V.png'); }
 input[type=radio]:checked.o2         + label::before { background-image: url('../img/selected_O2.png'); }
 
+input[type=radio]:disabled + label { color: #CFCECE; }
+
 input[type=radio]:disabled.telefonica + label::before { background-image: url('../img/disabled_T.png'); }
 input[type=radio]:disabled.movistar   + label::before { background-image: url('../img/disabled_M.png'); }
 input[type=radio]:disabled.vivo       + label::before { background-image: url('../img/disabled_V.png'); }
