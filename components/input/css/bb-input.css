@@ -3,7 +3,7 @@
     font-family: "Arial", sans-serif;
     font-size: 12px;
     position: relative;
-    width: 219px;
+    width: 18.25em;
 }
 
 .input-container-large {
@@ -17,7 +17,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-size: 1em;
-    height: 22px;
+    height: 1.84em;
     outline: none;
     padding: 0 5px 0 5px;
     width: 100%;
@@ -36,7 +36,7 @@
 .input-container-medium .message-container,
 .input-container-small .message-container,
 .input-container .message-container {
-    min-height: 30px;
+    min-height: 1.8em;
 }
 
 .input-container-large p, .input-container-medium p, .input-container-small p, .input-container p {
@@ -47,9 +47,9 @@
     -webkit-box-sizing: border-box;
     float: left;
     font-size: 0.75em;
-    height: 19px;
-    line-height: 19px;
-    margin: 3.75px 0 0 0;
+    height: 2.11em;
+    line-height: 2.11em;
+    margin: 0.25em 0 0 0;
     overflow: hidden;
     text-indent: 5px;
     vertical-align: middle;
@@ -60,7 +60,7 @@
 .input-container-medium .message-container .input-hint,
 .input-container-small .message-container .input-hint,
 .input-container .message-container .input-hint{
-    margin: 0 0 3.75px 0;
+    margin: 0 0 4px 0;
     display: none;
 }
 
@@ -106,73 +106,68 @@
 .input-container-large .btt-input, .input-container-medium .btt-input, .input-container .btt-input {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 65%;
     border: none;
     outline: none;
     border-radius: 3px;
     cursor: pointer;
     float: right;
-    height: 22px;
+    font-size: 1em;
+    height: 1.84em;
     padding: 0;
-    width: 22px;
+    width: 1.84em;
 }
 
 .btt-input.btt-refresh {
     background-image: url('../img/icon-refresh.png');
+    background: rgba(0,0,0,0) url('../img/icon-refresh.svg') no-repeat center center;
+    background-size: 65%;
 }
 
 .btt-input.btt-plus {
     background-image: url('../img/icon-plus.png');
+    background: rgba(0,0,0,0) url('../img/icon-plus.svg') no-repeat center center;
+    background-size: 65%;
 }
 
 .btt-input.btt-less {
     background-image: url('../img/icon-less.png');
+    background: rgba(0,0,0,0) url('../img/icon-less.svg') no-repeat center center;
+    background-size: 65%;
 }
 
-.input-container-large  { width: 329px;}
+.input-container-large  { width: 20.5625em;}
 
-.input-container-large  .input, .input-container-large  .special-input-btt  { height: 36px;}
-.input-container-medium .input, .input-container-medium  .special-input-btt { height: 22px;}
-.input-container-small  .input                                 { width: 97px; height: 22px;}
+.input-container-large  .input, .input-container-large  .special-input-btt  { height: 2.25em;}
+.input-container-medium .input, .input-container-medium  .special-input-btt { height: 1.84em;}
+.input-container-small  .input                               { width: 8.08em; height: 1.84em;}
 
-.input-container-large  .special-input-btt { width: 285px;}
-.input-container-medium .special-input-btt { width: 189px;}
+.input-container-large  .special-input-btt { width: 17.81em;}
+.input-container-medium .special-input-btt { width: 15.75em;}
 
-.input-container-large  .btt-input { height: 36px; width: 36px;}
-.input-container-medium .btt-input { height: 22px; width: 22px;}
+.input-container-large  .btt-input { height: 2.25em; width: 2.25em;}
+.input-container-medium .btt-input { height: 1.84em; width: 1.84em;}
 
-.input-container-large  .message-container { min-height: 30px;}
-
-.input-container-large  p { height: 22px; line-height: 22px;}
+.input-container-large  p { height: 1.84em; line-height: 1.84em;}
 
 .input:required {
     background-image: url('../img/bg-required.png');
     background-position: 100% 0%;
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 1.25em;
 }
 
 .input:required:focus, .input:required.ng-invalid.ng-dirty,  .input:required.ng-valid {
     background-image: url('../img/bg-required-focus.png');
 }
 
-.input-container-large .input:required {
-    background-size: 20px;
-}
-
 .input-container-large .tooltip-required,
 .input-container-medium .tooltip-required,
 .input-container-small .tooltip-required,
 .input-container .tooltip-required {
-    height: 16px;
+    height: 1.25em;
     position: absolute;
     right: 0;
-    width: 16px;
-}
-
-.input-container-large .tooltip-required {
-    height: 20px;
-    width: 20px;
+    width: 1.25em;
 }
 
 .input-container-small .tooltip-required {
