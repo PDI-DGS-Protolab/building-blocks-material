@@ -1,6 +1,9 @@
 input[type=radio] {
-    margin: 0;
+    font-size: 1em;
+    height: 0.8em;
+    margin: 0 0.2em 0 0;
     opacity: 0;
+    width: 0.8em;
 }
 
 input[type=radio] + label {
@@ -8,16 +11,17 @@ input[type=radio] + label {
 }
 
 input[type=radio] + label::before {
-    background-size: 13px;
+    background-size: 0.8em;
     background-repeat: no-repeat;
     background-position: center;
     content: "";
     display: inline-block;
     position: absolute;
-    width: 14px;
+    width: 1em;
     height: 100%;
     left: 0;
-    margin-left: -17px;
+    margin-left: -1.4em;
+    top: 0;
     z-index: -1;
     transition: all .3s ease-in-out 0s;
     -webkit-transition: all .3s ease-in-out 0s;
