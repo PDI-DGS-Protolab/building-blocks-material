@@ -19,7 +19,7 @@ form.bb-form.bb-contactus button.btt-positive {
     width: 100%;
 }
 
-.bb-form.bb-login .close {
+.bb-form.bb-contactus .close {
   background-image: url("../img/cross.svg");
   height: 10px;
   width: 10px;
