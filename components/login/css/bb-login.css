@@ -12,7 +12,7 @@ form.bb-form.bb-login button.button {
 }
 
 .bb-form.bb-login .close {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYbUe9GjFJ1ufbmK91X8ypwD9UaZ73V0LJrVeVwagIBxTXBjTY");
+  background-image: url("../img/cross.svg");
   height: 20px;
   width: 20px;
   background-size: 20px 20px;
