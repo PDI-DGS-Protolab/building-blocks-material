@@ -5,23 +5,23 @@
 }
 
 .movistar.table-arrow {
-  /*background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/movistar/arrow_table_neutral.png');*/
-  background-image:url('../images/movistar/arrow_table_neutral.png');
+  background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/movistar/arrow_table_neutral.png');
+  /* background-image:url('../images/movistar/arrow_table_neutral.png'); */
 }
 
 .telefonica.table-arrow {
-  /*background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/telefonica/arrow_table_neutral.png');*/
-  background-image:url('../images/telefonica/arrow_table_neutral.png');
+  background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/telefonica/arrow_table_neutral.png');
+  /* background-image:url('../images/telefonica/arrow_table_neutral.png'); */
 }
 
 .o2.table-arrow {
-  /*background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/o2/arrow_table_neutral.png');*/
-  background-image:url('../images/arrow_table_neutral.png');
+  background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/o2/arrow_table_neutral.png');
+  /* background-image:url('../images/arrow_table_neutral.png'); */
 }
 
 .vivo.table-arrow {
-  /*background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/vivo/arrow_table_neutral.png');*/
-  background-image:url('../images/vivo/arrow_table_neutral.png');
+  background-image:url('https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/vivo/arrow_table_neutral.png');
+  /* background-image:url('../images/vivo/arrow_table_neutral.png'); */
 }
 
 .table-arrow {
