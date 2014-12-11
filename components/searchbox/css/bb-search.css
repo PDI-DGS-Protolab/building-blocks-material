@@ -20,7 +20,7 @@
 .search-large {
   width: 329px;
   height: 36px;
-  font-size: 16px;
+  font-size: 1em;
   text-indent: 8px;
   background-size: 21px 21px;
   background-position: 300px 7px;
@@ -30,7 +30,7 @@
 .search-medium {
   width: 145px;
   height: 22px;
-  font-size: 12px;
+  font-size: 0.75em;
   text-indent: 6px;
   background-size: 14px 15px;
   background-position: 125px 4px;
@@ -54,7 +54,7 @@
     padding: 12px 0px 0px 5px;
     width: 323px;
     max-height: 267px;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .search-medium+ul {
@@ -62,7 +62,7 @@
     padding: 5px 0px 0px 5px;
     width: 139px;
     max-height: 154px;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .search-large+ul>li, .search-medium+ul>li {
@@ -78,7 +78,7 @@
 }
 
 .search-error-text-large {
-    font-size: 13px;
+    font-size: 0.81em;
     width: 329px;
     height: 28px;
     line-height: 28px;
@@ -87,7 +87,7 @@
 }
 
 .search-error-text-medium {
-    font-size: 9px;
+    font-size: 0.56em;
     width: 145px;
     height: 16px;
     line-height: 16px;
