@@ -5,9 +5,11 @@
     }">
     <div class="tableFooterElement">{{ (data | filter:{"$selected": true}).length }} selected</div>
     <div class="tableFooterElement right" ng-if="!TC.itemsSelected()">
-        <img src="images/movistar/arrow_left_black.png" ng-click="(TC.params.page()>1) ? TC.params.page(TC.params.page()-1) : null">
+      <img src="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/movistar/arrow_left_black.png"
+           ng-click="(TC.params.page()>1) ? TC.params.page(TC.params.page()-1) : null">
         <p>{{params.page()}} of {{params.npages}}</p>
-        <img src="images/movistar/arrow_right_black.png" ng-click="(TC.params.page()<TC.params.total()/TC.params.count()) ? TC.params.page(TC.params.page()+1) : null">
+        <img src="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/movistar/arrow_right_black.png"
+             ng-click="(TC.params.page()<TC.params.total()/TC.params.count()) ? TC.params.page(TC.params.page()+1) : null">
     </div>
 
     <div class="tableFooterBtn" ng-if="TC.itemsSelected()">
