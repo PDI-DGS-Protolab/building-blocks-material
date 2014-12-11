@@ -1,0 +1,112 @@
+.toggle-switch {
+    border-radius: 13px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 26px;
+    text-align: left;
+    overflow: hidden;
+    width: 63px;
+    transition: background-color 0.4s 0.1s;
+    -o-transition: background-color 0.4s 0.1s;
+    -moz-transition: background-color 0.4s 0.1s;
+    -webkit-transition: background-color 0.4s 0.1s;
+}
+
+.toggle-switch span {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin: 1px 0;
+    text-align: center;
+    white-space: nowrap;
+
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.toggle-switch .toggle-switch-animate {
+    position: relative;
+    width: 100px;
+
+    transition: left 0.5s;
+    -o-transition: left 0.5s;
+    -moz-transition: left 0.5s;
+    -webkit-transition: left 0.5s;
+}
+
+.toggle-switch .knob {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-left: -24px;
+    position: absolute;
+    width: 24px;
+    z-index: 100;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(189,189,189,0.9);
+    -moz-box-shadow: 0 2px 5px 0 rgba(189,189,189,0.9);
+    box-shadow: 0 2px 5px 0 rgba(189,189,189,0.9);
+}
+
+.toggle-switch .switch-left, .toggle-switch .switch-right {
+    border-radius: 12px;
+    width: 61px;
+    z-index: 1;
+    transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+.toggle-switch .switch-left {
+    background-color: transparent;
+    margin-left: 1px;
+    padding-right: 25px;
+}
+
+.toggle-switch .switch-right {
+    margin-left: -24px;
+    padding-left: 25px;
+}
+
+.toggle-switch.switch-on .toggle-switch-animate {
+    left: 0;
+}
+
+.toggle-switch.switch-off .toggle-switch-animate {
+    left: -37px;
+}
+
+.toggle-switch.disabled span {
+    cursor: default;
+}
+
+.toggle-switch.switch-off {
+    background-color: #CFCECE;
+}
+
+.toggle-switch.telefonica.switch-on:not(.disabled) { background-color: #00C6D7; }
+.toggle-switch.vivo.switch-on:not(.disabled)       { background-color: #99CC33; }
+.toggle-switch.o2.switch-on:not(.disabled)         { background-color: #01B7B4; }
+.toggle-switch.movistar.switch-on:not(.disabled)   { background-color: #8CC238; }
+
+.toggle-switch:not(.disabled) .switch-right {
+    background-color: #FFFFFF;
+    color: #CFCECE;
+}
+
+.toggle-switch.switch-on .switch-right { opacity: 0; }
+.toggle-switch.switch-off .switch-left { opacity: 0; }
+
+.toggle-switch.disabled {
+    background-color: #CFCECE;
+    color: #FFFFFF
+}
+
+.toggle-switch.disabled .knob {
+    background: #EEEEEE;
+}

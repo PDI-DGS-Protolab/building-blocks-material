@@ -2,12 +2,13 @@ form.bb-form {
     background: #FFFFFF;
     border-color: #D5D3D4;
     border-radius: 3px;
-    box-shadow: 1px 2px 5px #BBB;
+    box-shadow: 0px 0px 5px #BBB;
     overflow: hidden;
     padding: 37px;
     box-sizing: border-box;
     font-size: 12px !important;
     font-family: "Arial", sans-serif;
+    position: relative;
 }
 
 form.bb-form h1 {
@@ -36,3 +37,12 @@ form.bb-form .checkbox-label {
     margin-left: 5px;
     line-height: 20px;
 }
+
+form.bb-form a {
+    text-decoration: none;
+}
+
+form.bb-form a.telefonica {color: #00c6d7;}
+form.bb-form a.movistar {color: #8cc238;}
+form.bb-form a.vivo {color: #99cc33;}
+form.bb-form a.o2 {color: #01b7b4;}
