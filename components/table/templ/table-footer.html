@@ -9,7 +9,7 @@
            ng-click="(params.page()>1) ? params.page(params.page()-1) : null">
         <p>{{params.page()}} of {{params.npages}}</p>
         <img src="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/table/images/movistar/arrow_right_black.png"
-             ng-click="(params.page()<params.npages ? params.page(params.page()+1) : null">
+             ng-click="(params.page()<params.npages) ? params.page(params.page()+1) : null">
     </div>
 
     <div class="tableFooterBtn" ng-if="TC.itemsSelected()">
