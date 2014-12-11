@@ -119,19 +119,19 @@
 
 .btt-input.btt-refresh {
     background-image: url('../img/icon-refresh.png');
-    /*background: rgba(0,0,0,0) url('../img/icon-refresh.svg') no-repeat center center;*/
+    background: rgba(0,0,0,0) url('../img/icon-refresh.svg') no-repeat center center;
     background-size: 65%;
 }
 
 .btt-input.btt-plus {
     background-image: url('../img/icon-plus.png');
-    /*background: rgba(0,0,0,0) url('../img/icon-plus.svg') no-repeat center center;*/
+    background: rgba(0,0,0,0) url('../img/icon-plus.svg') no-repeat center center;
     background-size: 65%;
 }
 
 .btt-input.btt-less {
     background-image: url('../img/icon-less.png');
-    /*background: rgba(0,0,0,0) url('../img/icon-less.svg') no-repeat center center;*/
+    background: rgba(0,0,0,0) url('../img/icon-less.svg') no-repeat center center;
     background-size: 65%;
 }
 
