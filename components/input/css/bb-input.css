@@ -136,6 +136,7 @@
 }
 
 .input-container-large  { width: 20.5625em;}
+.input-container-small  { width: 10.5625em;}
 
 .input-container-large  .input, .input-container-large  .special-input-btt  { height: 2.25em;}
 .input-container-medium .input, .input-container-medium  .special-input-btt { height: 1.84em;}
