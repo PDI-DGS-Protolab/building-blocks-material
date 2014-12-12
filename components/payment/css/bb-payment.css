@@ -52,11 +52,7 @@ form.bb-form.bb-payment button.button {
 }
 
 form.bb-form.bb-payment button.button.btt-positive {
-    margin-left: 10px;
-}
-
-form.bb-form.bb-payment button.button.btt-positive {
-    margin-left: 10px;
+    margin-left: -255px;
 }
 
 form.bb-form.bb-payment div.dropdown-group.cardtype>button.dropdown-large,
