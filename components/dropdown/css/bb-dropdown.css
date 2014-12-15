@@ -51,7 +51,7 @@
     text-align: left;
     cursor: pointer;
     background-image: none;
-    border: 1px solid #CFCECE;
+    border: 1px solid #999999;
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
@@ -65,7 +65,7 @@
     text-align: left;
     cursor: pointer;
     background-image: none;
-    border: 1px solid #CFCECE;
+    border: 1px solid #999999;
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
@@ -79,7 +79,7 @@
     text-align: left;
     cursor: pointer;
     background-image: none;
-    border: 1px solid #CFCECE;
+    border: 1px solid #999999;
     -webkit-user-select: none;
     background: #f3f3f3;
     border-radius: 3px;
@@ -496,11 +496,32 @@
     display: block;
     clear: both;
     font-weight: normal;
-    padding: 7px 12px 7px 12px;
+    padding: 6px 12px 6px 12px;
     color: #333;
     white-space: nowrap;
     text-decoration: none;
 }
+
+.dropdown-menu-inside > li:first-child > a {
+    display: block;
+    clear: both;
+    font-weight: normal;
+    padding: 9px 12px 6px 12px;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.dropdown-menu-inside > li:last-child > a {
+    display: block;
+    clear: both;
+    font-weight: normal;
+    padding: 6px 12px 9px 12px;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
 .dropdown-menu-inside > li > a:hover,
 .dropdown-menu-inside > li > a:focus {
     color: #262626;
