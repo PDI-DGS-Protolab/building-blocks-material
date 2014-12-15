@@ -152,9 +152,6 @@
 
 .input-container-large  .special-input-btt,
 .input-container-large  .input        { height: 2.25em;}
-.input-container-medium .special-input-btt,
-.input-container-medium .input,
-.input-container-small  .input        { height: 1.84em;}
 
 .input-container-large  p { height: 1.84em; line-height: 1.84em;}
 
