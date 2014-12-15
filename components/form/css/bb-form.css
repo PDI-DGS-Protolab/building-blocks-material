@@ -8,6 +8,7 @@ form.bb-form {
     box-sizing: border-box;
     font-size: 12px !important;
     font-family: "Arial", sans-serif;
+    position: relative;
 }
 
 form.bb-form h1 {

@@ -1,23 +1,28 @@
 input[type=radio] {
-    margin: 0;
+    font-size: 1em;
+    height: 0.8em;
+    margin: 0 0.2em 0 0;
     opacity: 0;
+    width: 0.8em;
 }
 
 input[type=radio] + label {
     position: relative;
+    padding: 0 0 0 0.3em;
 }
 
 input[type=radio] + label::before {
-    background-size: 13px;
+    background-size: 0.8em;
     background-repeat: no-repeat;
     background-position: center;
     content: "";
     display: inline-block;
     position: absolute;
-    width: 14px;
+    width: 1em;
     height: 100%;
     left: 0;
-    margin-left: -17px;
+    margin-left: -1.4em;
+    top: 0;
     z-index: -1;
     transition: all .3s ease-in-out 0s;
     -webkit-transition: all .3s ease-in-out 0s;
@@ -34,6 +39,8 @@ input[type=radio]:checked.telefonica + label::before { background-image: url('..
 input[type=radio]:checked.movistar   + label::before { background-image: url('../img/selected_M.png'); }
 input[type=radio]:checked.vivo       + label::before { background-image: url('../img/selected_V.png'); }
 input[type=radio]:checked.o2         + label::before { background-image: url('../img/selected_O2.png'); }
+
+input[type=radio]:disabled + label { color: #CFCECE; }
 
 input[type=radio]:disabled.telefonica + label::before { background-image: url('../img/disabled_T.png'); }
 input[type=radio]:disabled.movistar   + label::before { background-image: url('../img/disabled_M.png'); }
