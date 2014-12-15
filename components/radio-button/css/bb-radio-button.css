@@ -8,6 +8,7 @@ input[type=radio] {
 
 input[type=radio] + label {
     position: relative;
+    padding: 0 0 0 0.3em;
 }
 
 input[type=radio] + label::before {
