@@ -40,6 +40,7 @@
 	padding:0px;
 	position: absolute;
 	background-color: white;
+	z-index: 1;
 }
 
 .headerColor{
