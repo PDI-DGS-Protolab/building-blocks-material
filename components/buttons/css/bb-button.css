@@ -118,6 +118,10 @@
 }
 
 
+.button.loading {
+    position: relative;
+}
+
 .image {
     position: absolute;
     top: 21%;
