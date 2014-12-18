@@ -1,11 +1,16 @@
 @font-face {
     font-family:'MovistarHeadline';
-    src:url('../../fonts/MovistarHeadline-Regular.otf'), url('../../fonts/MovistarHeadline-Regular.ttf') format('truetype');
+    src:url('../../fonts/movistar/MovistarHeadline-Regular.otf'), url('../../fonts/movistar/MovistarHeadline-Regular.ttf') format('truetype');
 }
 
 header {
     background-color: #129DC0;
-    background-image: url('../img/bg-header_movistar.png');
+    background-image: url('../../img/movistar/bg-header-movistar.png');
+}
+
+img.company-logo {
+    height: 42px;
+    width: 192px;
 }
 
 header .company-logo-container {
@@ -62,7 +67,7 @@ header a {
 }
 
 #menu-mobile-icon {
-    background-image:url('../img/menu-01.svg');
+    background-image:url('../../img/movistar/menu-01.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 32px;
@@ -73,7 +78,7 @@ header a {
     background-color: #ffffff;
     height: 32px;
     width: 32px;
-    background-image:url('../img/cross_menu-02.svg');
+    background-image:url('../../img/movistar/cross_menu-02.svg');
 
 }
 
@@ -105,7 +110,8 @@ header a {
 header .info-container-responsive a {
     color: #000;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
 }
 
 
