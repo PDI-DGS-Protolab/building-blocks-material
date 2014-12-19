@@ -6,7 +6,7 @@ form.bb-form {
     overflow: hidden;
     padding: 37px;
     box-sizing: border-box;
-    font-size: 12px !important;
+    font-size: 12px;
     font-family: "Arial", sans-serif;
     position: relative;
 }
@@ -15,6 +15,7 @@ form.bb-form h1 {
     text-align:center;
     margin-top: 0px;
     margin-bottom: 48px;
+    font-size: 24px;
 }
 
 form.bb-form .input-container {

@@ -20,7 +20,7 @@
 	color: white;
 }
 
-#datePicker > div{
+.datePicker > div{
 	border:none;
 	margin-bottom:0;
 	background: none;
@@ -38,6 +38,9 @@
 	border-radius: 5px;
 	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 	padding:0px;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
 }
 
 .headerColor{
@@ -51,7 +54,7 @@
 	opacity: 50%;	
 }
 
-#datePicker > table{
+.datePicker > table{
 	border:none;
 	margin: auto;
 	width:100%;
@@ -63,7 +66,7 @@
 	table-layout: fixed;
 }
 
-#datePicker > table > tbody{
+.datePicker > table > tbody{
 	display: table;
 	width: 279px;
 	margin-left: 11px;
@@ -71,7 +74,7 @@
 	table-layout: fixed;
 }
 
-#datePicker > table.biggerTable > tbody{
+.datePicker > table.biggerTable > tbody{
 	display: table;
 	width: 294px;	
 	height: 150px;
@@ -82,7 +85,7 @@
 	margin-right: 3px;
 }
 
-#datePicker > table.biggerTable > tbody td{
+.datePicker > table.biggerTable > tbody td{
 	padding: 3px;
 }
 
@@ -96,11 +99,11 @@
 	padding-bottom: 3px;
 }
 
-#datePicker > table > thead > tr:first-child >th{
+.datePicker > table > thead > tr:first-child >th{
 	border:none !important;	
 }
 
-.title{
+.datePicker .title{
 	font-weight: bold;
 	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -213,8 +216,6 @@ td > .day{
 .buttonContainer table > tbody > tr > td{
 	padding:0;
 }
-
-
 
 .movistar .headerColor{
 	background-color: #2280a6;
