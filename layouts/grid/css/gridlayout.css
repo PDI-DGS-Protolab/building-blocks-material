@@ -1,0 +1,55 @@
+
+.grid-container {
+    text-rendering: optimizespeed;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    margin: auto;
+    max-width: 61.25em;/*980px*/
+    width: 90%;
+    min-width: 15.75em;
+}
+
+.grid-container > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.grid-item {
+    vertical-align: middle;
+    min-width: 9em;
+    width: 22.44%; /*220px/980px*/
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-rendering: auto;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-top:auto;
+    margin-left: 1.63%;
+    padding-bottom: 1em;
+}
+
+@media screen and (max-width : 44.875em){/*718 px*/
+    .grid-item{width: 29.92%;}
+}
+
+@media screen and (max-width : 33.25em){/*532 px*/
+    .grid-item{width: 44.88%;}
+}
+
+@media screen and (max-width : 22.8125em){/*365 px*/
+    .grid-item{width: 89.76%;}
+}
+
+.input-container-medium{
+    width:100% !important;
+}
+
+
+ 

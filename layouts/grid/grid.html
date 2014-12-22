@@ -1,0 +1,66 @@
+<html>
+    <head>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js" type="text/javascript"></script>
+        <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+        
+        <link href="../../components/inputs_standard/bb-input.css" rel="stylesheet" type="text/css">
+        <script src="../../components/inputs_standard/example-controller.js" type="text/javascript"></script>
+
+        <script src="http://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/datepicker/js/datepicker.js"></script>
+        <script src="http://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/datepicker/js/demo.js"></script>
+        <link href="../../components/datepicker/css/datepicker.css" rel="stylesheet">
+        <link href="../../components/datepicker/css/movistar-datepicker.css" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="css/gridlayout.css">
+    </head>
+    
+    <body>
+        <div class="grid-container">
+            <div class="grid-item" ng-controller="ExampleController as exCtrl">
+                <div class="input-container-medium">
+                    Nombre 1
+                    <input class="movistar input" type="text" placeholder="Inserte su nombre..." />
+                </div>
+            </div>
+            <div ng-app="angularApp" class="grid-item">
+                <div class ="input-container-medium movistar" ng-controller="DatepickerDemoCtrl as datepicker">
+                    Fecha                    
+                    <input class="movistar input" type="text" ng-focus="datepicker.open($event)" datepicker-popup="yyyy/MM/dd" ng-model="datepicker.dt" is-open="datepicker.opened" />
+                </div>
+            </div>
+            <div class="grid-item" ng-controller="ExampleController as exCtrl">
+                <div class="input-container-medium">
+                    Nombre 2
+                    <input class="movistar input" type="text" placeholder="Inserte su nombre..." />
+                </div>
+            </div>
+            <div class="grid-item" ng-controller="ExampleController as exCtrl">
+                <div class="input-container-medium">
+                    Nombre 3
+                    <input class="movistar input" type="text" placeholder="Inserte su nombre..." />
+                </div>
+            </div>
+            <div class="grid-item" ng-controller="ExampleController as exCtrl">
+            </div>
+            <div class="grid-item" ng-controller="ExampleController as exCtrl">
+                <div class="input-container-medium">
+                    Nombre 5
+                    <input class="movistar input" type="text" placeholder="Inserte su nombre..." />
+                </div>
+            </div>
+            <div class="grid-item" ng-controller="ExampleController as exCtrl">
+                <div class="input-container-medium">
+                    Nombre 6
+                    <input class="movistar input" type="text" placeholder="Inserte su nombre..." />
+                </div>
+            </div>
+            <div class="grid-item" ng-controller="ExampleController as exCtrl">
+                <div class="input-container-medium">
+                    Nombre 7
+                    <input class="movistar input" type="text" placeholder="Inserte su nombre..." />
+                </div>
+            </div>
+        </div>
+         </body>
+</html>
