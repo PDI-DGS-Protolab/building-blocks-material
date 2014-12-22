@@ -29,10 +29,10 @@
     outline: none;
     padding: 0 5px 0 5px;
     width: 100%;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .special-input-btt {
@@ -77,10 +77,6 @@
     overflow: hidden;
     vertical-align: middle;
     white-space: nowrap;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
 }
 
 .input-container-large .message-container .input-hint,
