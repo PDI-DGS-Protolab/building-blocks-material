@@ -3,12 +3,15 @@
     font-family: "Arial", sans-serif;
     font-size: 12px;
     position: relative;
-    width: 18.25em;
 }
 
 .input-container-large {
     font-size: 16px;
     width: 20.5625em;
+}
+
+.input-container-medium {
+    width: 18.25em;
 }
 
 .input-container-small {
@@ -26,22 +29,28 @@
     outline: none;
     padding: 0 5px 0 5px;
     width: 100%;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .special-input-btt {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
     border-right: 0;
-    width: 16.41em;
+    padding-right: 2em;
+    width: 99%;
 }
 
 .input:invalid, .input:-moz-ui-invalid, .input:-moz-submit-invalid {
     box-shadow: none;
+    padding-left: 4px;
 }
 
 .input:focus, .input.ng-valid, .input.ng-invalid.ng-dirty, .special-input-btt:focus {
     border-width: 2px;
-    padding: 0 4px 0 4px;
+    padding-left: 4px;
 }
 
 .input-container-large .message-container,
@@ -74,37 +83,32 @@
 .input-container-medium .message-container .input-hint,
 .input-container-small .message-container .input-hint,
 .input-container .message-container .input-hint{
-    margin: 0 0 4px 0;
-    display: none;
+    height: 0;
 }
 
 .message-container .error-message {
     color: #FFFFFF;
-    display: none;
+    height: 0;
 }
 
-.input.ng-invalid.ng-dirty+.message-container .error-message.negative {
-    display: block;
+.input.ng-invalid.ng-dirty+.message-container .error-message.negative,
+.input.ng-invalid-required.ng-dirty+.message-container .error-message.negative-required,
+.input.ng-invalid.ng-dirty:not(.ng-invalid-required)+.message-container .error-message.negative-info,
+.input.ng-valid+.message-container .error-message.positive,
+.input:focus+.message-container .input-hint {
+    height: 2.11em;
 }
 
-.input.ng-invalid-required.ng-dirty+.message-container .error-message.negative-required {
-    display: block;
-}
-
-.input.ng-invalid.ng-dirty:not(.ng-invalid-required)+.message-container .error-message.negative-info {
-    display: block;
-}
-
-.input.ng-valid+.message-container .error-message.positive {
-    display: block;
+.input-container-large .input.ng-invalid.ng-dirty+.message-container .error-message.negative,
+.input-container-large .input.ng-invalid-required.ng-dirty+.message-container .error-message.negative-required,
+.input-container-large .input.ng-invalid.ng-dirty:not(.ng-invalid-required)+.message-container .error-message.negative-info,
+.input-container-large .input.ng-valid+.message-container .error-message.positive,
+.input-container-large .input:focus+.message-container .input-hint {
+    height: 1.84em;
 }
 
 .input:focus+.message-container .error-message {
-    display: none !important;
-}
-
-.input:focus+.message-container .input-hint {
-    display: block;
+    height: 0 !important;
 }
 
 .message-container .error-message, .message-container .input-hint {
@@ -129,6 +133,8 @@
     outline: none;
     padding: 0;
     position: absolute;
+    right: 0;
+    top: 0;
     width: 1.84em;
 }
 
@@ -155,7 +161,7 @@
 
 .input-container-large  p { height: 1.84em; line-height: 1.84em;}
 
-.input-container-large .special-input-btt { width: 18.2125em;}
+.input-container-large .special-input-btt { padding-right: 2.4em;}
 .input-container-large .btt-input { height: 2.25em; width: 2.25em;}
 
 .input:required {

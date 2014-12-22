@@ -59,6 +59,7 @@
     height: 36px;
     width: 329px;
     padding-left: 15px;
+    color: #aaafab;
 }
 
 .dropdown-medium {
@@ -73,6 +74,7 @@
     height: 22px;
     width: 219px;
     padding-left: 12px;
+    color: #aaafab;
 }
 
 .dropdown-small {
@@ -87,6 +89,7 @@
     height: 22px;
     width: 97px;
     padding-left: 12px;
+    color: #aaafab;
 }
 
 .dropdown-small:disabled,
