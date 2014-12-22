@@ -123,8 +123,9 @@
     content: "";
 }
 
+
 .button.loading::after {
-    content: url('../img/loading.svg');
+    content: url('../img/loading.png');
     position: absolute;
     top: 21%;
     left: 44%;
@@ -138,6 +139,7 @@
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 
 
 
