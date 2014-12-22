@@ -124,7 +124,20 @@
 }
 
 
-.button.loading::after {
+
+.button.small.loading::after {
+    content: url('../img/loading_small.png');
+    position: absolute;
+    top: 23%;
+    left: 44%;
+    width: 15px;
+    height: 15px;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+
+.button.medium.loading::after {
     content: url('../img/loading.png');
     position: absolute;
     top: 21%;
@@ -136,10 +149,19 @@
     animation:spin 1s linear infinite;
 }
 
+.button.large.loading::after {
+    content: url('../img/loading.png');
+    position: absolute;
+    top: 28%;
+    left: 46%;
+    width: 22px;
+    height: 22px;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-
-
 
