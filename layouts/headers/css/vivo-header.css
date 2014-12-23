@@ -1,11 +1,11 @@
 @font-face {
     font-family:'OfficinaSerif';
-    src:url('../../../fonts/vivo/OfficinaSerif.TTF') format('truetype');
+    src:url('../../../fonts/OfficinaSerif.TTF') format('truetype');
 }
 
 @font-face {
     font-family:'OfficinaSerif-bold';
-    src:url('../../../fonts/vivo/OfficinaSerif-Bold.TTF') format('truetype');
+    src:url('../../../fonts/OfficinaSerif-Bold.TTF') format('truetype');
 }
 
 header.vivo {

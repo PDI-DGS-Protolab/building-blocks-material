@@ -1,6 +1,6 @@
 @font-face {
     font-family:'MovistarHeadline';
-    src:url('../../../fonts/movistar/MovistarHeadline-Regular.otf'), url('../../../fonts/movistar/MovistarHeadline-Regular.ttf') format('truetype');
+    src:url('../../../fonts/MovistarHeadline-Regular.otf'), url('../../../fonts/MovistarHeadline-Regular.ttf') format('truetype');
 }
 
 header.movistar {
@@ -8,7 +8,7 @@ header.movistar {
     background-image: url('../img/bg-header-movistar.png');
 }
 
-img.company-logo {
+img.company-logo.movistar {
     height: 42px;
     width: 192px;
 }

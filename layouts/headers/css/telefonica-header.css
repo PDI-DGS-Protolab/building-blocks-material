@@ -1,6 +1,6 @@
 @font-face {
     font-family: TelefonicaTextLight;
-    src: url('../../../fonts/telefonica/TelefonicaHeadline-Light.otf');
+    src: url('../../../fonts/TelefonicaHeadline-Light.otf');
 }
 
 header.telefonica {
@@ -8,7 +8,7 @@ header.telefonica {
     background-image: url('../img/bg-header-telefonica.png');
 }
 
-img.company-logo {
+img.company-logo.telefonica {
     height: 33px;
     width: 118px;
 }
