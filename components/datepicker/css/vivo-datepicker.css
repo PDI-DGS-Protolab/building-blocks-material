@@ -1,0 +1,19 @@
+.headerColor{
+	background-color: #0066cc;
+}
+
+.specialButton.btn-today, .day.active > span {
+	background: #99cc33;
+}
+
+.specialButton.btn-month, .bigButton.month.active {
+	background: #660099;	
+}
+
+.specialButton.btn-year, .bigButton.year.active{
+	background: #ff9900;
+}
+
+.specialButton.btn-clear {
+	background: #999999;
+}

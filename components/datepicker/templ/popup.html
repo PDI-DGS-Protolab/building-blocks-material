@@ -1,9 +1,10 @@
 <ul class="dropdown-menu datePickerContainer" ng-style="{display: (isOpen) ? 'block' : 'none', top: position.top+'px', left: position.left+'px'}" ng-keydown="keydown($event)">
-    <datepicker class="datePicker" datepicker-mode="mode" ></datepicker>  
+    <datepicker class="datePicker" datepicker-mode = "mode"></datepicker>  
+
 	<div class="buttonContainer">
 	<table>
 	  <tr>
-	    <td><button type="button" class="specialButton btn-today" ng-click="select('today')">Today</button></td>
+	    <td><button type="button" class="specialButton btn-today" ng-click="select('today'); mode='day'">Today</button></td>
 	    <td><button type="button" class="specialButton btn-month" ng-click="mode='month'">Month</button></td>
 	    <td><button type="button" class="specialButton btn-year" ng-click="mode='year'">Year</button></td>
 	    <td><button type="button" class="specialButton btn-clear" ng-click="select(null)">Clear</button></td>

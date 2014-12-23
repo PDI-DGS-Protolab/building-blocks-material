@@ -1,0 +1,24 @@
+<!doctype html>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<html ng-app="angularApp">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/demo.js"></script>
+    <link href="css/datepicker.css" rel="stylesheet">
+    <link href="css/vivo-datepicker.css" rel="stylesheet">
+
+    <link href="../inputs_standard/css/default-input.css" rel="stylesheet" type="text/css">
+    <link href="../inputs_standard/css/vivo/input.css" rel="stylesheet" type="text/css">
+    <link href="../inputs_standard/css/layout.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <div class="input-container-medium" ng-controller="DatepickerDemoCtrl as datepicker">
+      <pre>Selected date is: <em>{{datepicker.dt | date:'fullDate' }}</em></pre>
+      <input class="movistar input" type="text" ng-focus="datepicker.open($event)" datepicker-popup="yyyy/MM/dd" ng-model="datepicker.dt" is-open="datepicker.opened" />      
+    </div>
+
+  </body>
+</html>
