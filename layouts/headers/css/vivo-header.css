@@ -1,18 +1,18 @@
 @font-face {
     font-family:'OfficinaSerif';
-    src:url('../../fonts/vivo/OfficinaSerif.TTF') format('truetype');
+    src:url('../../../fonts/OfficinaSerif.TTF') format('truetype');
 }
 
 @font-face {
     font-family:'OfficinaSerif-bold';
-    src:url('../../fonts/vivo/OfficinaSerif-Bold.TTF') format('truetype');
+    src:url('../../../fonts/OfficinaSerif-Bold.TTF') format('truetype');
 }
 
-header {
+header.vivo {
     border-bottom: 1px solid #e8e8e8;
 }
 
-header .company-logo-container {
+header.vivo .company-logo-container {
     float: left;
     padding-left: 24px;
     position: absolute;
@@ -21,7 +21,7 @@ header .company-logo-container {
     padding-bottom: 26px;
 }
 
-header .service-name-container {
+header.vivo .service-name-container {
     float: right;
     padding-left: 1em;
     padding-right: 32px;
@@ -31,7 +31,7 @@ header .service-name-container {
     padding-bottom: 26px;
 }
 
-header .info-container {
+header.vivo .info-container {
     padding-left: 0.5em;
     padding-right: 32px;
     position: absolute;
@@ -41,20 +41,20 @@ header .info-container {
     transform: translate(0%, -50%);
 }
 
-header .top-bar {
+header.vivo .top-bar {
     background: #660099;
     width:100%;
     height: 32px;
     position: relative;
 }
 
-header .service-name-container .service-name {
+header.vivo .service-name-container .service-name {
     font-family: OfficinaSerif-bold, Arial, Verdana, sans-serif;
     font-size: 32px;
     vertical-align: bottom;
 }
 
-header a {
+header.vivo a {
     color: #999999;
     font-size: 30px;
     text-decoration: none;
@@ -62,23 +62,23 @@ header a {
 
 
 
-header .info-container-responsive {
+header.vivo .info-container-responsive {
         display: none;
 }
 
-#menu-mobile-icon {
-    background-image:url('../../img/vivo/menu-01.svg');
+#menu-mobile-icon.vivo {
+    background-image:url('../img/menu-01.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 32px;
     height: 32px;
 }
 
-#menu-mobile-icon.open {
+#menu-mobile-icon.open.vivo {
     background-color: #ffffff;
     height: 32px;
     width: 32px;
-    background-image:url('../../img/vivo/cross_menu-02.svg');
+    background-image:url('../img/cross_menu-02.svg');
 
 }
 
@@ -107,7 +107,7 @@ header .info-container-responsive {
     padding: 10px 15px 8px 15px;
 }
 
-header .info-container-responsive a {
+header.vivo .info-container-responsive a {
     color: #000;
     text-decoration: none;
     font-size: 12px;
@@ -116,11 +116,11 @@ header .info-container-responsive a {
 
 
 @media (max-width: 640px) {
-    header .info-container {
+    header.vivo .info-container {
         display: none;
     }
 
-    header .info-container-responsive {
+    header.vivo .info-container-responsive {
         padding-left: 0.5em;
         padding-right: 32px;
         display: inline-block;

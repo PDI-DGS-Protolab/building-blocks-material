@@ -1,14 +1,14 @@
 @font-face {
     font-family:'Frutiger';
-    src:url('../../fonts/o2/frutiger.ttf') format('truetype');
+    src:url('../../../fonts/frutiger.ttf') format('truetype');
 }
 
 
-header {
+header.o2 {
     background-color: #ededed;
 }
 
-header .company-logo-container {
+header.o2 .company-logo-container {
     float: left;
     padding-left: 24px;
     position: absolute;
@@ -17,7 +17,7 @@ header .company-logo-container {
     padding-bottom: 33px;
 }
 
-header .service-name-container {
+header.o2 .service-name-container {
     float: right;
     padding-left: 1em;
     padding-right: 32px;
@@ -27,7 +27,7 @@ header .service-name-container {
     padding-bottom: 30px;
 }
 
-header .info-container {
+header.o2 .info-container {
     padding-left: 0.5em;
     padding-right: 32px;
     position: absolute;
@@ -37,14 +37,14 @@ header .info-container {
     transform: translate(0%, -50%);
 }
 
-header .service-name-container .service-name {
+header.o2 .service-name-container .service-name {
     font-family: Frutiger, Arial, Verdana, sans-serif;
     font-size: 32px;
     vertical-align: bottom;
 }
 
-header .top-bar {
-    background-image: url("../../img/o2/tab_top_o2.jpg");
+header.o2 .top-bar {
+    background-image: url("../img/tab_top_o2.jpg");
     background-repeat: repeat-x;
     width:100%;
     height: 32px;
@@ -52,8 +52,8 @@ header .top-bar {
     color: #fff;
 }
 
-header .bottom-bar {
-    background-image: url("../../img/o2/tab_bottom_o2.jpg");
+header.o2 .bottom-bar {
+    background-image: url("../img/tab_bottom_o2.jpg");
     background-repeat: repeat-x;
     width:100%;
     height: 18px;
@@ -64,37 +64,37 @@ header .bottom-bar {
 
 
 
-header .info-container a {
+header.o2 .info-container a {
     color: #dbe7e9;
     text-decoration: none;
 }
 
 
-header .service-name-container a {
+header.o2 .service-name-container a {
     color: #032b5a;
     text-decoration: none;
 }
 
 
 
-header .info-container-responsive {
+header.o2 .info-container-responsive {
         display: none;
 }
 
 
-#menu-mobile-icon {
-    background-image:url('../../img/movistar/menu-01.svg');
+#menu-mobile-icon.o2 {
+    background-image:url('../img/menu-01.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 32px;
     height: 32px;
 }
 
-#menu-mobile-icon.open {
+#menu-mobile-icon.open.o2 {
     background-color: #ffffff;
     height: 32px;
     width: 32px;
-    background-image:url('../../img/vivo/cross_menu-02.svg');
+    background-image:url('../img/cross_menu-02.svg');
 
 }
 
@@ -123,7 +123,7 @@ header .info-container-responsive {
     padding: 10px 15px 8px 15px;
 }
 
-header .info-container-responsive a {
+header.o2 .info-container-responsive a {
     color: #000;
     text-decoration: none;
     font-size: 12px;
@@ -132,11 +132,11 @@ header .info-container-responsive a {
 
 
 @media (max-width: 640px) {
-    header .info-container {
+    header.o2 .info-container {
         display: none;
     }
 
-    header .info-container-responsive {
+    header.o2 .info-container-responsive {
         padding-left: 0.5em;
         padding-right: 32px;
         display: inline-block;
