@@ -1,11 +1,11 @@
 @font-face {
     font-family:'MovistarHeadline';
-    src:url('../../fonts/movistar/MovistarHeadline-Regular.otf'), url('../../fonts/movistar/MovistarHeadline-Regular.ttf') format('truetype');
+    src:url('../../../fonts/movistar/MovistarHeadline-Regular.otf'), url('../../../fonts/movistar/MovistarHeadline-Regular.ttf') format('truetype');
 }
 
 header {
     background-color: #129DC0;
-    background-image: url('../../img/movistar/bg-header-movistar.png');
+    background-image: url('../img/movistar/bg-header.png');
 }
 
 img.company-logo {
@@ -67,7 +67,7 @@ header a {
 }
 
 #menu-mobile-icon {
-    background-image:url('../../img/movistar/menu-01.svg');
+    background-image:url('../img/movistar/menu-01.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 32px;
@@ -78,7 +78,7 @@ header a {
     background-color: #ffffff;
     height: 32px;
     width: 32px;
-    background-image:url('../../img/movistar/cross_menu-02.svg');
+    background-image:url('../img/movistar/cross_menu-02.svg');
 
 }
 

@@ -1,11 +1,11 @@
 @font-face {
     font-family: TelefonicaTextLight;
-    src: url('../../fonts/telefonica/TelefonicaHeadline-Light.otf');
+    src: url('../../../fonts/telefonica/TelefonicaHeadline-Light.otf');
 }
 
 header {
     background-color: #006476;
-    background-image: url('../../img/telefonica/bg-header-telefonica.png');
+    background-image: url('../img/telefonica/bg-header.png');
 }
 
 img.company-logo {
@@ -67,7 +67,7 @@ header .info-container-responsive {
 }
 
 #menu-mobile-icon {
-    background-image:url('../../img/movistar/menu-01.svg');
+    background-image:url('../img/movistar/menu-01.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 32px;
@@ -78,7 +78,7 @@ header .info-container-responsive {
     background-color: #ffffff;
     height: 32px;
     width: 32px;
-    background-image:url('../../img/movistar/cross_menu-02.svg');
+    background-image:url('../img/movistar/cross_menu-02.svg');
 
 }
 
