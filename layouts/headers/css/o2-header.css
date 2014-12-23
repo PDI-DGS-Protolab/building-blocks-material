@@ -44,7 +44,7 @@ header.o2 .service-name-container .service-name {
 }
 
 header.o2 .top-bar {
-    background-image: url("../img/o2/tab_top_o2.jpg");
+    background-image: url("../img/tab_top_o2.jpg");
     background-repeat: repeat-x;
     width:100%;
     height: 32px;
@@ -53,7 +53,7 @@ header.o2 .top-bar {
 }
 
 header.o2 .bottom-bar {
-    background-image: url("../img/o2/tab_bottom_o2.jpg");
+    background-image: url("../img/tab_bottom_o2.jpg");
     background-repeat: repeat-x;
     width:100%;
     height: 18px;

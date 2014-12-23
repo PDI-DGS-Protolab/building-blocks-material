@@ -67,7 +67,7 @@ header.movistar a {
 }
 
 #menu-mobile-icon {
-    background-image:url('../img/movistar/menu-01.svg');
+    background-image:url('../img/menu-01.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 32px;
@@ -78,7 +78,7 @@ header.movistar a {
     background-color: #ffffff;
     height: 32px;
     width: 32px;
-    background-image:url('../img/movistar/cross_menu-02.svg');
+    background-image:url('../img/cross_menu-02.svg');
 
 }
 
