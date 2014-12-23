@@ -1,19 +1,19 @@
-.headerColor{
+.o2 .headerColor{
 	background-color: #2280a6;
 }
 
-.specialButton.btn-today, .day.active > span {
+.o2 .specialButton.btn-today, .day.active > span {
 	background: #01b7b4;
 }
 
-.specialButton.btn-month, .bigButton.month.active {
+.o2 .specialButton.btn-month, .bigButton.month.active {
 	background: #952d98;	
 }
 
-.specialButton.btn-year, .bigButton.year.active{
+.o2 .specialButton.btn-year, .bigButton.year.active{
 	background: #ffcc00;
 }
 
-.specialButton.btn-clear {
+.o2 .specialButton.btn-clear {
 	background: #8c9299;
 }

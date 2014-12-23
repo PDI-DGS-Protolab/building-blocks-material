@@ -1,19 +1,19 @@
-.headerColor{
+.telefonica .headerColor{
 	background-color: #004356;
 }
 
-.specialButton.btn-today, .day.active > span {
+.telefonica .specialButton.btn-today, .day.active > span {
 	background: #00c6d7;
 }
 
-.specialButton.btn-month, .bigButton.month.active {
+.telefonica .specialButton.btn-month, .bigButton.month.active {
 	background: #009966;	
 }
 
-.specialButton.btn-year, .bigButton.year.active{
+.telefonica .specialButton.btn-year, .bigButton.year.active{
 	background: #663366;
 }
 
-.specialButton.btn-clear {
+.telefonica .specialButton.btn-clear {
 	background: #b1b0b0;
 }
