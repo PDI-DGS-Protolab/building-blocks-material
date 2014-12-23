@@ -103,13 +103,13 @@ form.bb-form.bb-payment button.dropdown-large.btn-primary.dropdown-toggle {
 }
 
 .credit-number-img {
-  background-size: 40px;
+  background-size: 35px auto;
   background-repeat: no-repeat;
   width: 45px;
-  height:40px;
+  height: 40px;
   position: absolute;
-  top: 6px;
-  right: 15px;
+  top: 1px;
+  right: 5px;
 }
 
 .credit-number-img.mastercard {
