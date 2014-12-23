@@ -2,15 +2,15 @@
 	background-color: #004356;
 }
 
-.telefonica .specialButton.btn-today, .day.active > span {
+.telefonica .specialButton.btn-today, .telefonica .day.active > span {
 	background: #00c6d7;
 }
 
-.telefonica .specialButton.btn-month, .bigButton.month.active {
+.telefonica .specialButton.btn-month, .telefonica .bigButton.month.active {
 	background: #009966;	
 }
 
-.telefonica .specialButton.btn-year, .bigButton.year.active{
+.telefonica .specialButton.btn-year, .telefonica .bigButton.year.active{
 	background: #663366;
 }
 

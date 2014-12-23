@@ -2,15 +2,15 @@
 	background-color: #2280a6;
 }
 
-.o2 .specialButton.btn-today, .day.active > span {
+.o2 .specialButton.btn-today, .o2 .day.active > span {
 	background: #01b7b4;
 }
 
-.o2 .specialButton.btn-month, .bigButton.month.active {
+.o2 .specialButton.btn-month, .o2 .bigButton.month.active {
 	background: #952d98;	
 }
 
-.o2 .specialButton.btn-year, .bigButton.year.active{
+.o2 .specialButton.btn-year, .o2 .bigButton.year.active{
 	background: #ffcc00;
 }
 

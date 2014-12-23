@@ -2,15 +2,15 @@
 	background-color: #0066cc;
 }
 
-.vivo .specialButton.btn-today, .day.active > span {
+.vivo .specialButton.btn-today, .vivo .day.active > span {
 	background: #99cc33;
 }
 
-.vivo .specialButton.btn-month, .bigButton.month.active {
+.vivo .specialButton.btn-month, .vivo .bigButton.month.active {
 	background: #660099;	
 }
 
-.vivo .specialButton.btn-year, .bigButton.year.active{
+.vivo .specialButton.btn-year, .vivo .bigButton.year.active{
 	background: #ff9900;
 }
 
