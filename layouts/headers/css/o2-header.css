@@ -82,19 +82,19 @@ header.o2 .info-container-responsive {
 }
 
 
-#menu-mobile-icon {
-    background-image:url('../img/movistar/menu-01.svg');
+#menu-mobile-icon.o2 {
+    background-image:url('../img/menu-01.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 32px;
     height: 32px;
 }
 
-#menu-mobile-icon.open {
+#menu-mobile-icon.open.o2 {
     background-color: #ffffff;
     height: 32px;
     width: 32px;
-    background-image:url('../img/vivo/cross_menu-02.svg');
+    background-image:url('../img/cross_menu-02.svg');
 
 }
 
