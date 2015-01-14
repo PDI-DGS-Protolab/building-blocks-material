@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['angular-msg']);
+var app = angular.module('myApp', ['angular-msg', 'ngAnimate']);
 
 app.config(['msgProvider', function (msgProvider) {
   msgProvider.globalTimeToLive(3*1000);  // Time to live (In milisecs)
