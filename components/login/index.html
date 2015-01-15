@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Building Blocks - </title>
+        <!-- You only should use the css of your brand, but this example includes all brands for all components. Each component has a "common" css file and a brand-specific one for each brand.-->
+        <!-- INCLUDE INPUT -->
+        <!-- For example, this is the common css file for the input component -->
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/input/css/bb-input.css" rel="stylesheet" type="text/css">
+        <!-- This are all brand files for the input component -->
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/input/css/movistar-input.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/input/css/o2-input.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/input/css/telefonica-input.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/input/css/vivo-input.css" rel="stylesheet" type="text/css"/>
+        <!-- INCLUDE BUTTON -->
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/buttons/css/bb-button.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/buttons/css/movistar-button.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/buttons/css/o2-button.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/buttons/css/telefonica-button.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/buttons/css/vivo-button.css" rel="stylesheet" type="text/css"/>
+        <!-- INCLUDE CHECKBOX -->
+        <link href="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/fonts/glyphicons-halflings.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/checkbox/css/bb-checkbox.css" rel="stylesheet" type="text/css"/>
+        <!-- INCLUDE LOGIN CSS -->
+        <link href="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/form/css/bb-form.css" rel="stylesheet" type="text/css"/>
+        <link href="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/login/css/bb-login.css" rel="stylesheet" type="text/css"/>
+        <!-- The following sytlesheet is only used to display pretty this example you don't need to use it -->
+        <link href="layout.css" rel="stylesheet" type="text/css">
+        <!-- ANGULARJS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js" type="text/javascript"></script>
+        <!-- CHECKBOX JS -->
+        <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js" type="text/javascript"></script>
+        <script src="https://rawgit.com/sebastianha/angular-bootstrap-checkbox/master/angular-bootstrap-checkbox.js" type="text/javascript"></script>
+        <!-- EXAMPLE JS -->
+        <script src="example-controller.js" type="text/javascript"></script>
+    </head>
+    <body ng-app="angularApp" ng-controller="OptionsCtrl as optionsCtrl">
+        <!--
+          Here starts the size and brand control part. If you want to use a specific brand and size
+          simply use the values instead of angular tags in the components.
+          Example: "input-container-{{optionsCtrl.selectedSize}}" -> "input-container-small"
+        -->
+        <div id="options-container">
+            <span>Select one brand</span>
+            <select ng-model="optionsCtrl.selectedBrand">
+                <option value="telefonica" >Telefónica</option>
+                <option value="movistar">Movistar</option>
+                <option value="o2">O2</option>
+                <option value="vivo">Vivo</option>
+            </select>
+        </div>
+        <!--
+          End of size and brand control zone
+        -->
+        <h3>AngularJS Dummy Example</h3>
+        <form class="form" name="LoginForm" ng-controller="LoginCtrl as loginCtrl">
+            <h1 class="field-left field-clear">Login</h1>
+            <div class="field-left field-clear">Email</div>
+            <div class="field-right">
+                <div class="input-container">
+                    <input class="{{optionsCtrl.selectedBrand}} input" type="text" name="inputEmail" placeholder="me@{{optionsCtrl.selectedBrand}}.com" ng-model="loginCtrl.email" ng-pattern="/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/" ng-required="true" />
+                    <div class="{{optionsCtrl.selectedBrand}} message-container">
+                        <p class="error-message negative-required">Required field</p>
+                        <p class="error-message negative-info">Please enter a valid email</p>
+                    </div>
+                </div>
+            </div>
+            <div class="field-left field-clear">Password</div>
+            <div class="field-right">
+                <div class="input-container">
+                    <input class="{{optionsCtrl.selectedBrand}} input" type="password" name="inputPass" placeholder="********" ng-model="loginCtrl.pass" ng-required="true" />
+                    <div class="{{optionsCtrl.selectedBrand}} message-container">
+                        <p class="error-message negative">Required field</p>
+                    </div>
+                </div>
+            </div>
+            <div class="field-left field-clear keep"></div>
+            <div class="field-right keep">
+                <checkbox class="{{optionsCtrl.selectedBrand}} checkbox" ng-model="loginCtrl.keep"></checkbox>
+                <div class="checkbox-label"> Keep me signed in </div>
+            </div>
+            <div class="field-left field-clear"></div>
+            <div class="field-right submit">
+                <button class="{{optionsCtrl.selectedBrand}} button btt-positive" ng-disabled="!LoginForm.$valid" ng-click="loginCtrl.sendForm()">Login</button>
+            </div>
+            <div class="field-left field-clear forgot"></div>
+            <div class="field-right forgot">
+                <a href="">I cannot access my account</a>
+            </div>
+        </form>
+    </body>
+</html>
