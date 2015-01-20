@@ -61,17 +61,22 @@ angular.module('navbarTest',['ngSanitize'])
       $scope.item = 'Singular link item selected.';
       break;
       case 'login_display':
-        if($scope.login_shown === null) {
-          login_tab = document.getElementById("navbar").children[0].children[0].children[1].children[0].children[5];
-          login_tab.innerHTML = '<a>LOGIN</a><form id="login-form" class="bb-form bb-login" shown="true" name="LoginForm" ng-controller="LoginCtrl as loginCtrl"><div class="close" ng-click="loginCtrl.exit()"></div><h1 class="field-left field-clear">Login</h1><div class="input-container"><div class="tooltip-required" popover-trigger="mouseenter" popover="This field is mandatory"></div><input class="telefonica input" type="text" name="inputEmail" placeholder="Email" ng-model="loginCtrl.email" ng-pattern="/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/" ng-required="true" /><div class="telefonica message-container"><p class="error-message negative-required">Required field</p><p class="error-message negative-info">Please enter a valid email</p></div></div><div class="input-container"><div class="tooltip-required" popover-trigger="mouseenter" popover="This field is mandatory"></div><input class="telefonica input" type="password" name="inputPass" placeholder="Password" ng-model="loginCtrl.pass" ng-required="true" /><div class="telefonica message-container"><p class="error-message negative">Required field</p></div></div><checkbox class="telefonica checkbox" ng-model="loginCtrl.keep"></checkbox><div class="checkbox-label"> Keep me signed in </div><button class="telefonica button medium btt-positive" ng-disabled="!LoginForm.$valid" ng-click="loginCtrl.sendForm()">Login</button><a class="telefonica forgot" href="">I cannot access my account</a></form>';
-          $scope.login_shown = true;
-        } else if ($scope.login_shown === false) {
-          document.getElementById("login-form").shown="true";
-          $scope.login_shown = true;
-        } else {
-          document.getElementById("login-form").shown="false";
-          $scope.login_shown = false;
-        }
+      if($scope.login_shown === null) {
+        login_place = document.getElementById("navbar").children[0].children[0].children[1].children[0].children[5];
+        var login_tab = document.getElementById("login-form");
+        login_place.appendChild(login_tab);
+        document.getElementById("login-form").style.position = "absolute";
+        document.getElementById("login-form").style.top = "50px";
+        document.getElementById("login-form").style.display = "table";
+
+        $scope.login_shown = true;
+      } else if ($scope.login_shown === false) {
+        document.getElementById("login-form").style.display = "table";
+        $scope.login_shown = true;
+      } else {
+        document.getElementById("login-form").style.display = "none";
+        $scope.login_shown = false;
+      }
       break;
       default:
       $scope.item = 'Default selection.';

@@ -38,14 +38,7 @@ form[role=search] .form-group {
   box-shadow: 0 3px 6px rgba(0,0,0,.175);
 }
 
-form.bb-form.bb-login[shown="true"] {
-  position: absolute;
-  padding: 0px;
-  top: 50px;
-  display: table;
-}
-
-form.bb-form.bb-login[shown="false"] {
+form.bb-form.bb-login {
   display: none;
 }
 
