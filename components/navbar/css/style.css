@@ -4,31 +4,66 @@ body {
   margin: 0;
 }
 
+#bullipedia-header {
+  position: fixed;
+  padding-left: 20px;
+  background-color: white;
+  height: 37px;
+  width: 100%;
+}
+
+#bullipedia-header p {
+  color: rgb(0,0,0);
+  margin-top: 0;
+  line-height: 2;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  display: inline;
+}
+
+#bullipedia-header > p > b {
+  color: rgb(0,0,0);
+  font-size: 18px;
+}
+
+#bullipedia-header > p > img {
+  vertical-align: middle;
+}
+
+#bullipedia-navbar {
+  top:37px;
+  position: fixed;
+  height: 83px;
+  width: 100%;
+  background-color: #000;
+}
+
+#bullipedia-navbar + div {
+  padding-top: 120px; 
+}
+
 #bullipedia-navbar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  position: center;
-  background-color: #000000;
-  width: 100%;
+  margin: 0 auto;
+  width: 1200px;
   height: 83px;
 }
 
-#bullipedia-navbar > .navbar-options li {
+#bullipedia-navbar li {
   display: inline;
   float: left;
-  height: 100%;
+  height: 83px;
 }
 
-#bullipedia-navbar > .navbar-options li a{
-  height: 100%;
-  font-family: 'Open Sans';
+#bullipedia-navbar li a{
   color: #ffffff;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans';
   font-size: 14px;
   line-height: 6;
   vertical-align: middle;
-  padding: 10px 30px;
+  padding: 10px 21px;
   text-decoration: none;
   cursor: pointer;
 }
