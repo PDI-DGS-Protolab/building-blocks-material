@@ -1,10 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
-@media only screen and (max-width: 1038px) {
-  #bullipedia-navbar {
-    display: none;
-  }
-}
 
 body {
   margin: 0;
@@ -65,7 +60,7 @@ body {
 #bullipedia-navbar ul {
   list-style-type: none;
   margin: 0 auto;
-  width: 987px;
+  width: 1038px;
   padding: 0;
   height: 83px;
 }
@@ -83,13 +78,20 @@ body {
   font-family: 'Open Sans';
   font-size: 14px;
   line-height: 6;
-  vertical-align: middle;
   padding: 10px 21px;
   text-decoration: none;
   cursor: pointer;
 }
 
-#bullipedia-logo {
+#bullipedia-navbar-mini {
+  position: fixed;
+  height: 83px;
+  width: 100%;
+  background-color: #000;
+  display: none;
+}
+
+.bullipedia-logo {
   width:177px;
   height: 83px;
 }
@@ -101,3 +103,29 @@ body {
   z-index: -1;
 }
 
+.hamburguer-button {
+  background-image: url("IMG/menu.svg");
+  margin: 25.5px 20px;
+  float: right;
+  width: 32px;
+  height: 32px;
+  border-color: #333;
+  background-color: #000;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 1038px) {
+
+  #bullipedia-navbar-mini {
+    display: inline;
+  }
+
+  #bullipedia-navbar ul{
+    display: none;
+  }
+
+  .bullipedia-logo {
+   margin-left: 20px; 
+  }
+
+}

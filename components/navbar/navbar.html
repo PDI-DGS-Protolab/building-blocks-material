@@ -7,9 +7,6 @@
 
 	<title> Bullipedia - Navbar</title>
 
-	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-
-
 	<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
 	<link href="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/input/css/bb-input.css" rel="stylesheet" type="text/css">
 	<!-- This are all brand files for the input component -->
@@ -40,7 +37,8 @@
 	<!-- EXAMPLE JS -->
 	<script src="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/login/example-controller.js" type="text/javascript"></script>
 
-<script src="js/navbar.js" type="text/javascript"></script>
+	<script src="js/navbar.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
 </head>
 <body ng-app="angularApp">
@@ -65,7 +63,7 @@
 			</li>
 			<li>
 				<!-- Bullipedia logo-->
-				<a id="bullipedia-logo"><img src="css/IMG/bullipedia_logo.png" id="bullipedia-logo"></a>
+				<a><img src="css/IMG/bullipedia_logo.png" class="bullipedia-logo"></a>
 			</li>
 			<li>
 				<a href="">ORGANIZERS</a>
@@ -76,7 +74,7 @@
 			<li id="login-dropdown">
 				<a onclick="show_login()">LOGIN</a>
 				<form id="login-form" class="bb-form bb-login" name="LoginForm" ng-controller="LoginCtrl as loginCtrl">
-					<div class="close" ng-click="loginCtrl.exit()">
+					<div class="close" onclick="show_login()">
 					</div>
 					<h1 class="field-left field-clear">
 						Login
@@ -118,6 +116,10 @@
 				</form>
 			</li>
 		</ul>
+		<div id="bullipedia-navbar-mini">
+			<a><img src="css/IMG/bullipedia_logo.png" class="bullipedia-logo"></a>
+			<button class="hamburguer-button"></button>
+		</div>
 	</div>
 	<div>	
 		<h1>eeee</h1>
