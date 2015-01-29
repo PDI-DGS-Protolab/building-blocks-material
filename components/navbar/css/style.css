@@ -1,5 +1,11 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
+@media only screen and (max-width: 1038px) {
+  #bullipedia-navbar {
+    display: none;
+  }
+}
+
 body {
   margin: 0;
 }
