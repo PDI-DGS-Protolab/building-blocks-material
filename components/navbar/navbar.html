@@ -7,6 +7,10 @@
 
 	<title> Bullipedia - Navbar</title>
 
+
+	<script src="js/navbar.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
 	<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
 	<link href="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/input/css/bb-input.css" rel="stylesheet" type="text/css">
 	<!-- This are all brand files for the input component -->
@@ -37,8 +41,7 @@
 	<!-- EXAMPLE JS -->
 	<script src="https://rawgit.com/PDI-DGS-Protolab/building-blocks-material/master/components/login/example-controller.js" type="text/javascript"></script>
 
-	<script src="js/navbar.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
 
 </head>
 <body ng-app="angularApp">
@@ -61,7 +64,7 @@
 			<li>
 				<a href="">CALENDAR</a>
 			</li>
-			<li>
+			<li id="bullipedia-icon">
 				<!-- Bullipedia logo-->
 				<a><img src="css/IMG/bullipedia_logo.png" class="bullipedia-logo"></a>
 			</li>
@@ -73,54 +76,77 @@
 			</li>
 			<li id="login-dropdown">
 				<a onclick="show_login()">LOGIN</a>
-				<form id="login-form" class="bb-form bb-login" name="LoginForm" ng-controller="LoginCtrl as loginCtrl">
-					<div class="close" onclick="show_login()">
-					</div>
-					<h1 class="field-left field-clear">
-						Login
-					</h1>
-					<div class="input-container">
-						<div class="tooltip-required" popover-trigger="mouseenter" popover="This field is mandatory">
-						</div>
-						<input class="telefonica input" type="text" name="inputEmail" placeholder="Email" ng-model="loginCtrl.email" ng-pattern="/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/" ng-required="true" />
-						<div class="telefonica message-container">
-							<p class="error-message negative-required">
-								Required field
-							</p>
-							<p class="error-message negative-info">
-								Please enter a valid email
-							</p>
-						</div>
-					</div>
-					<div class="input-container">
-						<div class="tooltip-required" popover-trigger="mouseenter" popover="This field is mandatory">
-						</div>
-						<input class="telefonica input" type="password" name="inputPass" placeholder="Password" ng-model="loginCtrl.pass" ng-required="true" />
-						<div class="telefonica message-container">
-							<p class="error-message negative">
-								Required field
-							</p>
-						</div>
-					</div>
-					<checkbox class="telefonica checkbox" ng-model="loginCtrl.keep">
-					</checkbox>
-					<div class="checkbox-label">
-						Keep me signed in 
-					</div>
-					<button class="telefonica button medium btt-positive" ng-disabled="!LoginForm.$valid" ng-click="loginCtrl.sendForm()">
-						Login
-					</button>
-					<a class="telefonica forgot" href="">
-						I cannot access my account
-					</a>
-				</form>
 			</li>
 		</ul>
 		<div id="bullipedia-navbar-mini">
 			<a><img src="css/IMG/bullipedia_logo.png" class="bullipedia-logo"></a>
-			<button class="hamburguer-button"></button>
+			<button class="hamburguer-button" onclick= "show_dropdown_mini()"></button>
+			<ul>
+				<li>
+					<a href="">BULLIPEDIA</a>
+				</li>
+				<li>
+					<a href="">THE CHALLENGE</a>
+				</li>
+				<li>
+					<a href="">CALENDAR</a>
+				</li>
+				<li>
+					<a href="">ORGANIZERS</a>
+				</li>
+				<li>
+					<a href="">SPREAD THE WORD!</a>
+				</li>
+				<li>
+					<a onclick="show_login()">LOGIN</a>
+				</li>
+			</ul>
 		</div>
 	</div>
+	<div id = "login-container">
+		<form id="login-form" class="bb-form bb-login" name="LoginForm" ng-controller="LoginCtrl as loginCtrl">
+			<div class="close" onclick="show_login()">
+			</div>
+			<h1 class="field-left field-clear">
+				Login
+			</h1>
+			<div class="input-container">
+				<div class="tooltip-required" popover-trigger="mouseenter" popover="This field is mandatory">
+				</div>
+				<input class="telefonica input" type="text" name="inputEmail" placeholder="Email" ng-model="loginCtrl.email" ng-pattern="/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/" ng-required="true" />
+				<div class="telefonica message-container">
+					<p class="error-message negative-required">
+						Required field
+					</p>
+					<p class="error-message negative-info">
+						Please enter a valid email
+					</p>
+				</div>
+			</div>
+			<div class="input-container">
+				<div class="tooltip-required" popover-trigger="mouseenter" popover="This field is mandatory">
+				</div>
+				<input class="telefonica input" type="password" name="inputPass" placeholder="Password" ng-model="loginCtrl.pass" ng-required="true" />
+				<div class="telefonica message-container">
+					<p class="error-message negative">
+						Required field
+					</p>
+				</div>
+			</div>
+			<checkbox class="telefonica checkbox" ng-model="loginCtrl.keep">
+			</checkbox>
+			<div class="checkbox-label">
+				Keep me signed in 
+			</div>
+			<button class="telefonica button medium btt-positive" ng-disabled="!LoginForm.$valid" ng-click="loginCtrl.sendForm()">
+				Login
+			</button>
+			<a class="telefonica forgot" href="">
+				I cannot access my account
+			</a>
+		</form>
+	</div>
+	<div id = "page-shadow-login" class="hidden"></div>
 	<div>	
 		<h1>eeee</h1>
 		<h1>eeee</h1>

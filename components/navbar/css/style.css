@@ -65,14 +65,27 @@ body {
   height: 83px;
 }
 
+#bullipedia-navbar li:hover{  
+  background-color: white;
+}
+
+#bullipedia-navbar li:hover a{
+    color: black;
+    cursor: pointer;
+}
+
+#bullipedia-icon:hover {
+  background-color: #000;
+}
+
 #bullipedia-navbar li {
   display: inline;
   float: left;
   height: 83px;
 }
 
-#bullipedia-navbar li a{
-  color: #ffffff;
+#bullipedia-navbar li a{  
+  color: white;
   height: 100%;
   width: 100%;
   font-family: 'Open Sans';
@@ -91,6 +104,8 @@ body {
   display: none;
 }
 
+
+
 .bullipedia-logo {
   width:177px;
   height: 83px;
@@ -103,13 +118,36 @@ body {
   z-index: -1;
 }
 
-.hamburguer-button {
+#login-container {
+  width: 100%;
+  height: 100%;
+}
+
+#page-shadow {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  position: fixed;
+  z-index: 1;
+}
+
+#page-shadow-login.shown {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+}
+
+#bullipedia-navbar-mini .hamburguer-button {
   background-image: url("IMG/menu.svg");
   margin: 25.5px 20px;
   float: right;
-  width: 32px;
-  height: 32px;
-  border-color: #333;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333;
+  border-radius: 5px;
   background-color: #000;
   background-size: 100%;
 }
@@ -128,4 +166,45 @@ body {
    margin-left: 20px; 
   }
 
+  #login-form {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+  }
+
 }
+
+#bullipedia-navbar-mini ul{
+  display: inline;  
+  text-align: center;
+  overflow: hidden;
+}
+
+#bullipedia-navbar-mini.showDropdown ul{
+  display: inline; 
+  height: auto;  
+}
+
+#bullipedia-navbar-mini li {
+  height: 0px;
+  width: 100%;
+  background: #000;
+  margin-top: 0px;
+  padding: 0;
+  margin: 0;
+  display: list-item;
+  float: none;
+}
+
+#bullipedia-navbar-mini.showDropdown li {
+  height: 100%;
+}
+
+#bullipedia-navbar-mini li:first-child {
+  padding-left: 75px;
+}
+
+#bullipedia-navbar-mini li:last-child {
+  border-bottom: 2px solid #000;
+}
+
